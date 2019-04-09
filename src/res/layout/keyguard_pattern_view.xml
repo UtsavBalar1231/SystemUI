@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.keyguard.KeyguardPatternView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:androidprv="http://schemas.android.com/apk/res-auto" android:gravity="0x1" android:orientation="1" android:id="false" android:clipChildren="false" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-1" androidprv:layout_maxHeight="485dp" androidprv:layout_maxWidth="320dp">
+	<FrameLayout android:id="false" android:clipChildren="false" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="543948unknown unit:0x21">
+		<ImageView android:layout_gravity="0x11" android:id="false" android:background="res/drawable/facelock_bouncer_ripple_drawable.xml" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxhdpi-v4/ic_fingerprint_lockscreen_blow.png" />
+	</FrameLayout>
+	<FrameLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-1">
+		<LinearLayout android:layout_gravity="0x51" android:orientation="1" android:id="false" android:clipChildren="false" android:clipToPadding="false" android:layout_width="-2" android:layout_height="-2">
+			<include android:layout_width="-1" android:layout_height="-2" layout="res/layout/keyguard_message_area.xml" />
+			<com.android.internal.widget.LockPatternView android:gravity="0x11" android:layout_gravity="0x1" android:id="false" android:clipChildren="false" android:clipToPadding="false" android:layout_width="-1" android:layout_height="0dp" android:layout_marginBottom="4dp" android:layout_weight="{4:1065353216}" android:layout_marginStart="8dp" android:layout_marginEnd="8dp" />
+			<include android:gravity="0x1" android:layout_gravity="0x51" android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" layout="res/layout/keyguard_emergency_carrier_area.xml" />
+		</LinearLayout>
+	</FrameLayout>
+</com.android.keyguard.KeyguardPatternView>

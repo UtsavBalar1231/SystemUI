@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.SignalClusterView xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x10" android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-1" android:paddingEnd="7dp">
+	<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable/stat_sys_vpn_ic.xml" android:contentDescription="VPN on." android:paddingEnd="6dp" />
+	<FrameLayout android:id="false" android:layout_width="-2" android:layout_height="-2">
+		<com.android.systemui.statusbar.AlphaOptimizedImageView android:theme="{2:2130968902}" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+		<com.android.systemui.statusbar.AlphaOptimizedImageView android:theme="{2:2130968727}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:alpha="{4:0}" />
+	</FrameLayout>
+	<FrameLayout android:layout_width="-2" android:layout_height="17dp">
+		<ImageView android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable/ic_activity_down.xml" android:paddingEnd="2dp" />
+		<ImageView android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable/ic_activity_up.xml" android:paddingEnd="2dp" />
+	</FrameLayout>
+	<FrameLayout android:id="false" android:layout_width="-2" android:layout_height="-2">
+		<com.android.systemui.statusbar.AlphaOptimizedImageView android:theme="{2:2130968902}" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+		<com.android.systemui.statusbar.AlphaOptimizedImageView android:theme="{2:2130968727}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:alpha="{4:0}" />
+		<ImageView android:layout_gravity="0x800053" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+	</FrameLayout>
+	<View android:id="false" android:visibility="2" android:layout_width="4dp" android:layout_height="4dp" />
+	<ViewStub android:id="false" android:layout="res/layout/connected_device_signal.xml" android:layout_width="-2" android:layout_height="-2" />
+	<LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+		<ImageView android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxhdpi-v4/stat_sys_volte.png" />
+		<ImageView android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxhdpi-v4/stat_sys_vowifi.png" />
+	</LinearLayout>
+	<LinearLayout android:id="false" android:layout_width="-2" android:layout_height="-2" />
+	<FrameLayout android:id="false" android:layout_width="-2" android:layout_height="-2" android:contentDescription="No SIM card.">
+		<com.android.systemui.statusbar.AlphaOptimizedImageView android:theme="{2:2130968902}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable/stat_sys_no_sims.xml" />
+		<com.android.systemui.statusbar.AlphaOptimizedImageView android:theme="{2:2130968727}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable/stat_sys_no_sims.xml" android:alpha="{4:0}" />
+	</FrameLayout>
+	<View android:id="false" android:visibility="2" android:layout_width="4dp" android:layout_height="4dp" />
+	<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" />
+</com.android.systemui.statusbar.SignalClusterView>

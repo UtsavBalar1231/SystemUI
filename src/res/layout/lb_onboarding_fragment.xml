@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:clipChildren="false" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-1">
+	<FrameLayout android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+	<ImageView android:id="false" style="{2:2130968950}" />
+	<LinearLayout android:id="false" android:visibility="2" style="{2:2130968948}">
+		<TextView android:id="false" style="{2:2130968955}" />
+		<TextView android:id="false" style="{2:2130968947}" />
+	</LinearLayout>
+	<FrameLayout android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:layout_above="false" android:layout_below="false" android:layout_centerHorizontal="true" />
+	<FrameLayout android:id="false" style="{2:2130968951}">
+		<android.support.v17.leanback.widget.PagingIndicator android:id="false" android:visibility="2" style="{2:2130968952}" />
+		<Button android:id="false" android:visibility="2" style="{2:2130968953}" />
+	</FrameLayout>
+	<FrameLayout android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+	<ImageView android:id="false" style="{2:2130968949}" />
+</RelativeLayout>

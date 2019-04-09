@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button xmlns:android="http://schemas.android.com/apk/res/android" android:textAppearance="resourceId:0x7f12031f" android:textColor="res/color/segmented_button_text_selector.xml" android:gravity="0x11" android:background="res/drawable/btn_borderless_rect.xml" android:layout_width="0dp" android:layout_height="-2" android:minHeight="72dp" android:maxLines="2" android:layout_weight="{4:1065353216}" android:lineSpacingMultiplier="{4:1065774827}" android:layout_marginStart="0dp" />

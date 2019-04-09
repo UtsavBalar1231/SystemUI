@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+	<LinearLayout android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-2">
+		<Toolbar android:id="resourceId:0x102017c" android:layout_width="-1" android:layout_height="48dp" android:layout_marginTop="8dp" android:layout_marginBottom="6dp" android:titleTextAppearance="resourceId:0x7f120431" android:navigationContentDescription="resourceId:0x104004d" style="{2:16843946}" />
+	</LinearLayout>
+	<FrameLayout android:layout_width="-1" android:layout_height="319dp">
+		<com.android.systemui.qs.customize.QSEditViewPager android:layout_gravity="0x30" android:id="false" android:layout_width="-1" android:layout_height="313dp" android:paddingStart="14dp" android:paddingEnd="14dp" />
+		<LinearLayout android:gravity="0x11" android:layout_gravity="0x50" android:id="false" android:layout_width="-1" android:layout_height="-2">
+			<include android:id="false" android:layout_width="-2" android:layout_height="-1" android:layout_marginTop="8dp" android:layout_marginBottom="10dp" layout="res/layout/qs_page_indicator.xml" />
+		</LinearLayout>
+	</FrameLayout>
+	<TextView android:textAppearance="resourceId:0x7f12042f" android:textSize="14sp" android:gravity="0x33" android:id="false" android:paddingTop="8dp" android:layout_width="-1" android:layout_height="30dp" android:text="Drag to add tiles" android:paddingStart="22dp" android:paddingEnd="22dp" />
+	<com.android.systemui.qs.customize.QSEditViewPager android:id="false" android:layout_width="-1" android:layout_height="104dp" android:layout_marginTop="16dp" android:paddingStart="14dp" android:paddingEnd="14dp" />
+	<Space android:id="false" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}" />
+	<include android:id="false" android:layout_width="-2" android:layout_height="-1" android:layout_marginBottom="8dp" layout="res/layout/qs_page_indicator.xml" />
+	<View android:layout_gravity="0x50" android:id="false" android:background="ff000" android:layout_width="-1" android:layout_height="resourceId:0x10500ef" />
+</merge>

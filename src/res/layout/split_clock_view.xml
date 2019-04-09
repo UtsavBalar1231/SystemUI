@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.policy.SplitClockView xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x10" android:layout_width="-2" android:layout_height="-2">
+	<com.android.keyguard.clock.TextClockWithoutTimetick android:textAppearance="resourceId:0x7f12032c" android:textSize="36px" android:id="false" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" />
+	<com.android.keyguard.clock.TextClockWithoutTimetick android:textAppearance="resourceId:0x7f12032c" android:textSize="36px" android:id="false" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" android:importantForAccessibility="2" />
+	<TextView android:textAppearance="resourceId:0x7f12032c" android:textSize="36px" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="|" android:singleLine="true" android:layout_marginStart="5dp" android:layout_marginEnd="5dp" />
+</com.android.systemui.statusbar.policy.SplitClockView>

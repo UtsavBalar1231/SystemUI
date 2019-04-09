@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.phone.OPFacelockLightView xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+	<ImageView android:id="false" android:layout_width="-1" android:layout_height="-1" android:src="res/drawable-xxhdpi-v4/face_unlock_light_view_bg.png" />
+	<LinearLayout android:gravity="0x1" android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-1">
+		<com.android.keyguard.clock.OPTextClock android:textAppearance="resourceId:0x7f120441" android:textColor="666666" android:gravity="0x1" android:layout_gravity="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" android:shadowColor="1a000" android:shadowDy="{4:1065353216}" android:shadowRadius="{4:1073741824}" android:alpha="{4:1060991140}" android:fontFamily="sans-serif-light" android:format12Hour="hmm" android:format24Hour="kkmm" />
+		<com.android.keyguard.clock.OPTextClock android:textAppearance="resourceId:0x7f120442" android:textColor="666666" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="2dp" android:shadowColor="1a000" android:shadowDy="{4:1065353216}" android:shadowRadius="{4:1073741824}" android:alpha="{4:1060991140}" android:textAllCaps="true" android:fontFamily="sans-serif-medium" android:letterSpacing="{4:1041865114}" />
+		<TextView android:textSize="17dp" android:textColor="000" android:gravity="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="38dp" android:text="The screen is lighting up to help face recognition." />
+	</LinearLayout>
+	<Button android:textSize="14dp" android:textColor="resourceId:0x106000b" android:id="false" android:background="res/drawable/face_unlock_rounded_background.xml" android:paddingLeft="2dp" android:paddingRight="2dp" android:layout_width="-2" android:layout_height="36dp" android:layout_marginBottom="112dp" android:minWidth="63dp" android:text="Close" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+	<LinearLayout android:gravity="0x11" android:layout_width="56dp" android:layout_height="56dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+		<ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="res/drawable-xxhdpi-v4/fack_unlock_icon_dark.png" />
+	</LinearLayout>
+</com.android.systemui.statusbar.phone.OPFacelockLightView>

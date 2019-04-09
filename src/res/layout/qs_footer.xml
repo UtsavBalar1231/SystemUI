@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.qs.QSFooter xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x10" android:orientation="0" android:id="false" android:background="0000" android:paddingTop="0dp" android:clickable="false" android:clipChildren="false" android:clipToPadding="false" android:layout_width="-1" android:layout_height="48dp" android:baselineAligned="false" android:elevation="4dp">
+	<include android:id="false" android:layout_width="-2" android:layout_height="-1" android:layout_marginStart="16dp" android:layout_marginEnd="8dp" layout="res/layout/status_bar_alarm_group.xml" />
+	<LinearLayout android:gravity="0x800005" android:layout_width="-1" android:layout_height="-2" android:layout_marginStart="16dp" android:layout_marginEnd="8dp">
+		<com.android.systemui.statusbar.phone.MultiUserSwitch android:id="false" android:background="res/drawable/ripple_drawable.xml" android:focusable="true" android:layout_width="48dp" android:layout_height="48dp" android:layout_alignParentEnd="true">
+			<ImageView android:layout_gravity="0x11" android:id="false" android:layout_width="18dp" android:layout_height="18dp" android:scaleType="7" />
+		</com.android.systemui.statusbar.phone.MultiUserSwitch>
+		<com.android.systemui.statusbar.AlphaOptimizedImageView android:id="resourceId:0x1020003" android:background="{2:16843868}" android:padding="16dp" android:focusable="true" android:clickable="true" android:clipToPadding="false" android:layout_width="48dp" android:layout_height="48dp" android:src="res/drawable/ic_mode_edit.xml" android:tint="{2:16842800}" android:contentDescription="Edit order of settings." />
+		<com.android.systemui.statusbar.AlphaOptimizedFrameLayout android:id="false" android:clipChildren="false" android:clipToPadding="false" android:layout_width="48dp" android:layout_height="48dp">
+			<com.android.systemui.statusbar.phone.SettingsButton android:id="false" android:background="res/drawable/ripple_drawable.xml" android:layout_width="-1" android:layout_height="-1" android:src="res/drawable/ic_settings_16dp.xml" android:tint="{2:16842800}" android:contentDescription="Open settings." style="@android:style/Widget.Material.Button.Borderless" />
+			<com.android.systemui.statusbar.AlphaOptimizedImageView android:id="false" android:visibility="1" android:layout_width="-1" android:layout_height="-1" android:src="res/drawable-nodpi-v4/tuner.xml" android:tint="{2:16843282}" android:paddingStart="36dp" android:paddingEnd="4dp" />
+		</com.android.systemui.statusbar.AlphaOptimizedFrameLayout>
+		<com.android.systemui.statusbar.phone.ExpandableIndicator android:id="false" android:background="{2:16843868}" android:padding="14dp" android:focusable="true" android:clickable="true" android:clipToPadding="false" android:layout_width="48dp" android:layout_height="48dp" android:contentDescription="Open quick settings." />
+	</LinearLayout>
+	<include android:layout_gravity="0x50" android:layout_width="-1" android:layout_height="1dp" layout="res/layout/qs_divider.xml" />
+</com.android.systemui.qs.QSFooter>

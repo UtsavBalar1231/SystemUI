@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.qs.QuickStatusBarHeader xmlns:android="http://schemas.android.com/apk/res/android" xmlns:systemui="http://schemas.android.com/apk/res-auto" android:layout_gravity="0x31" android:id="false" android:background="0000" android:paddingTop="0dp" android:clickable="false" android:clipChildren="false" android:clipToPadding="false" android:layout_width="-1" android:layout_height="113dp" android:baselineAligned="false" android:paddingStart="0dp" android:paddingEnd="0dp" android:elevation="4dp">
+	<LinearLayout android:gravity="0x11" android:orientation="0" android:clipChildren="false" android:clipToPadding="false" android:layout_width="-1" android:layout_height="36dp" android:layout_marginTop="11dp" android:paddingStart="27dp" android:paddingEnd="8dp" android:layout_alignParentEnd="true">
+		<include android:id="false" android:layout_width="-2" android:layout_height="-1" layout="res/layout/split_clock_view.xml" />
+		<include android:layout_width="-2" android:layout_height="-1" android:layout_toStartOf="false" layout="res/layout/status_bar_alarm_group.xml" />
+		<LinearLayout android:gravity="0x800055" android:layout_width="-1" android:layout_height="-2">
+			<com.android.systemui.BatteryMeterView android:id="false" android:layout_width="-2" android:layout_height="-1" />
+			<com.android.systemui.statusbar.phone.MultiUserSwitch android:id="false" android:background="res/drawable/ripple_drawable_dark.xml" android:focusable="true" android:layout_width="36dp" android:layout_height="36dp" android:layout_marginEnd="8dp" android:layout_alignParentEnd="true">
+				<ImageView android:layout_gravity="0x11" android:id="false" android:layout_width="18dp" android:layout_height="18dp" android:scaleType="7" />
+			</com.android.systemui.statusbar.phone.MultiUserSwitch>
+			<com.android.systemui.statusbar.AlphaOptimizedImageView android:id="resourceId:0x1020003" android:background="res/drawable/ripple_drawable_dark.xml" android:padding="8dp" android:focusable="true" android:clickable="true" android:clipToPadding="false" android:layout_width="36dp" android:layout_height="36dp" android:src="res/drawable/ic_mode_edit.xml" android:contentDescription="Edit order of settings." android:layout_marginEnd="8dp" />
+			<com.android.systemui.statusbar.AlphaOptimizedFrameLayout android:id="false" android:clipChildren="false" android:clipToPadding="false" android:layout_width="36dp" android:layout_height="36dp" android:layout_marginEnd="8dp">
+				<com.android.systemui.statusbar.phone.SettingsButton android:id="false" android:background="res/drawable/ripple_drawable_dark.xml" android:layout_width="-1" android:layout_height="-1" android:src="res/drawable/ic_settings.xml" android:contentDescription="Open settings." style="@android:style/Widget.Material.Button.Borderless" />
+				<com.android.systemui.statusbar.AlphaOptimizedImageView android:id="false" android:paddingTop="9dp" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable/ic_tuner.xml" android:paddingStart="770048unknown unit:0x21" />
+			</com.android.systemui.statusbar.AlphaOptimizedFrameLayout>
+		</LinearLayout>
+	</LinearLayout>
+	<com.android.systemui.qs.QuickQSPanel android:id="false" android:focusable="true" android:clipChildren="false" android:clipToPadding="false" android:layout_width="-1" android:layout_height="68dp" android:layout_marginTop="45dp" android:layout_alignParentTop="true" android:importantForAccessibility="1" android:layout_marginStart="13dp" android:layout_marginEnd="13dp" android:layout_alignParentEnd="true" android:accessibilityTraversalBefore="false" android:accessibilityTraversalAfter="false" />
+	<com.android.systemui.statusbar.AlphaOptimizedImageView android:id="false" android:background="res/color/qs_detail_progress_track.xml" android:layout_width="-1" android:layout_height="-2" android:src="res/drawable/indeterminate_anim.xml" android:layout_alignParentBottom="true" android:alpha="{4:0}" />
+	<TextView android:textSize="11dp" android:textStyle="0x1" android:textColor="0a040" android:layout_gravity="0x10" android:id="false" android:padding="2dp" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:fontFamily="sans-serif-condensed" />
+</com.android.systemui.qs.QuickStatusBarHeader>

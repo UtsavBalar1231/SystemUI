@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-2" android:layout_height="-2" android:adjustViewBounds="true" android:maxWidth="150dp" android:maxHeight="210dp" android:elevation="8dp" />

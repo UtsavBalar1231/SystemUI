@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:textAppearance="@android:style/TextAppearance.Material.Body2" android:textColor="{2:16843829}" android:id="resourceId:0x1020016" android:paddingTop="20dp" android:paddingBottom="13dp" android:layout_width="-1" android:layout_height="-2" android:text="Drag to add tiles" android:paddingStart="16dp" android:paddingEnd="8dp" />

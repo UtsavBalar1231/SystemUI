@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:paddingTop="24dp" android:paddingBottom="24dp" android:scrollbars="0x200" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-1" android:cacheColorHint="resourceId:0x0" android:divider="{2:16843525}" android:overScrollMode="1" android:textAlignment="5" class="com.oneplus.lib.app.OPAlertController$RecycleListView" />

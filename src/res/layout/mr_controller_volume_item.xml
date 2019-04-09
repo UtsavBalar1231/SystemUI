@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-2">
+	<LinearLayout android:orientation="1" android:id="false" android:paddingLeft="24dp" android:paddingRight="60dp" android:paddingBottom="8dp" android:layout_width="-1" android:layout_height="68dp">
+		<TextView android:textAppearance="resourceId:0x7f12030c" android:id="false" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" />
+		<LinearLayout android:gravity="0x10" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+			<ImageView android:id="false" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:src="{2:2130968922}" android:scaleType="3" />
+			<android.support.v7.app.MediaRouteVolumeSlider android:id="false" android:layout_width="-1" android:layout_height="40dp" android:maxHeight="40dp" android:minHeight="40dp" android:contentDescription="Volume slider" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

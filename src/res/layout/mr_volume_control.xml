@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x10" android:paddingLeft="24dp" android:paddingRight="12dp" android:layout_width="-1" android:layout_height="-2" android:minHeight="48dp" android:splitMotionEvents="false">
+	<ImageView android:gravity="0x11" android:layout_width="24dp" android:layout_height="24dp" android:src="{2:2130968922}" android:scaleType="5" />
+	<android.support.v7.app.MediaRouteVolumeSlider android:id="false" android:clickable="true" android:layout_width="0dp" android:layout_height="-2" android:maxHeight="48dp" android:minHeight="48dp" android:layout_weight="{4:1065353216}" android:contentDescription="Volume slider" />
+	<android.support.v7.app.MediaRouteExpandCollapseButton android:id="false" android:background="{2:2130969162}" android:padding="12dp" android:visibility="2" android:layout_width="48dp" android:layout_height="48dp" />
+</LinearLayout>

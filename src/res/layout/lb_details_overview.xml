@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:lb="http://schemas.android.com/apk/res-auto" android:paddingBottom="40dp" android:focusable="true" android:focusableInTouchMode="true" android:clipToPadding="false" android:descendantFocusability="1" android:layout_width="-1" android:layout_height="-2" android:paddingStart="132dp" android:paddingEnd="132dp">
+	<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="274dp" android:foreground="ffffff" android:elevation="8dp">
+		<LinearLayout android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-1">
+			<ImageView android:id="false" android:layout_width="-2" android:layout_height="-1" android:scaleType="2" android:adjustViewBounds="true" />
+			<LinearLayout android:orientation="1" android:id="false" android:paddingBottom="12dp" android:layout_width="-1" android:layout_height="-1">
+				<android.support.v17.leanback.widget.NonOverlappingFrameLayout android:gravity="0x30" android:id="false" android:paddingTop="24dp" android:clipChildren="false" android:clipToPadding="false" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}" android:layout_marginStart="24dp" android:layout_marginEnd="24dp" />
+				<android.support.v17.leanback.widget.HorizontalGridView android:gravity="0x11" android:id="false" android:focusable="true" android:focusableInTouchMode="true" android:clipChildren="false" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-2" android:horizontalSpacing="16dp" android:paddingStart="24dp" android:paddingEnd="24dp" lb:rowHeight="56dp" />
+			</LinearLayout>
+		</LinearLayout>
+	</FrameLayout>
+</FrameLayout>

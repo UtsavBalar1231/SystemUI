@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="res/drawable-xxhdpi-v4/search_bg_transparent.9.png" android:layout_width="-1" android:layout_height="-1">
+	<TextView android:textSize="18sp" android:textColor="99ffffff" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:text="search" android:textAllCaps="true" />
+</FrameLayout>

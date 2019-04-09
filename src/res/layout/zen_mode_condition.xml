@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x10" android:clipChildren="false" android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}" android:layout_marginStart="1dp" android:layout_marginEnd="0dp">
+	<LinearLayout android:orientation="1" android:id="resourceId:0x1020002" android:layout_width="-1" android:layout_height="-2" android:layout_centerVertical="true" android:layout_toStartOf="resourceId:0x1020019" android:layout_toEndOf="resourceId:0x1020001">
+		<TextView android:textAppearance="resourceId:0x7f12031c" android:ellipsize="3" android:id="resourceId:0x1020014" android:layout_width="-1" android:layout_height="-2" android:maxLines="1" android:textAlignment="5" />
+		<TextView android:textAppearance="resourceId:0x7f12031d" android:ellipsize="3" android:id="resourceId:0x1020015" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4dp" android:maxLines="1" android:textAlignment="5" />
+	</LinearLayout>
+	<ImageView android:id="resourceId:0x1020019" android:background="res/drawable/ripple_drawable_20dp.xml" android:layout_width="48dp" android:layout_height="48dp" android:src="res/drawable/ic_qs_minus.xml" android:scaleType="5" android:tint="{2:16842806}" android:layout_centerVertical="true" android:contentDescription="Less time." android:layout_toStartOf="resourceId:0x102001a" style="resourceId:0x7f120294" />
+	<ImageView android:id="resourceId:0x102001a" android:background="res/drawable/ripple_drawable_20dp.xml" android:layout_width="48dp" android:layout_height="48dp" android:src="res/drawable/ic_qs_plus.xml" android:scaleType="5" android:tint="{2:16842806}" android:layout_centerVertical="true" android:contentDescription="More time." android:layout_alignParentEnd="true" style="resourceId:0x7f120294" />
+</RelativeLayout>

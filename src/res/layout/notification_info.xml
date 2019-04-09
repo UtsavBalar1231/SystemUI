@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.NotificationInfo xmlns:android="http://schemas.android.com/apk/res/android" android:theme="@android:style/Theme.DeviceDefault.Light" android:orientation="1" android:id="false" android:background="eeeeee" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:paddingStart="resourceId:0x10500fb">
+	<LinearLayout android:gravity="0x10" android:orientation="0" android:paddingTop="resourceId:0x1050105" android:paddingBottom="resourceId:0x1050104" android:clipChildren="false" android:layout_width="-1" android:layout_height="resourceId:0x1050101">
+		<ImageView android:id="false" android:layout_width="resourceId:0x1050102" android:layout_height="resourceId:0x1050102" android:layout_marginEnd="3dp" />
+		<TextView android:textAppearance="@android:style/TextAppearance.Material.Notification.Info" android:id="false" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" android:layout_marginStart="3dp" android:layout_marginEnd="2dp" />
+		<TextView android:textAppearance="@android:style/TextAppearance.Material.Notification.Info" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="resourceId:0x10403eb" android:layout_marginStart="2dp" android:layout_marginEnd="2dp" />
+		<TextView android:textAppearance="@android:style/TextAppearance.Material.Notification.Info" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginStart="2dp" android:layout_marginEnd="2dp" />
+	</LinearLayout>
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="20dp" android:layout_marginEnd="resourceId:0x10500fa">
+		<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+			<TextView android:id="false" android:layout_width="0dp" android:layout_height="-2" android:layout_marginBottom="6dp" android:layout_weight="{4:1065353216}" style="resourceId:0x7f120310" />
+			<Switch android:layout_gravity="0x800015" android:id="false" android:background="resourceId:0x0" android:layout_width="-2" android:layout_height="-2" android:contentDescription="Allow notifications from this channel" />
+		</LinearLayout>
+		<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="You won&apos;t get these notifications anymore." style="resourceId:0x7f120313" />
+		<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="You won&apos;t get these notifications anymore." style="resourceId:0x7f120311" />
+		<TextView android:ellipsize="3" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:maxLines="1" style="resourceId:0x7f120312" />
+	</LinearLayout>
+	<LinearLayout android:gravity="0x800005" android:orientation="0" android:layout_width="-1" android:layout_height="48dp" android:layout_marginBottom="8dp">
+		<TextView android:id="false" android:layout_width="-2" android:layout_height="-1" android:text="More settings" android:layout_marginEnd="8dp" style="resourceId:0x7f12030f" />
+		<TextView android:id="false" android:layout_width="-2" android:layout_height="-1" android:text="Done" android:layout_marginEnd="8dp" style="resourceId:0x7f12030f" />
+	</LinearLayout>
+</com.android.systemui.statusbar.NotificationInfo>

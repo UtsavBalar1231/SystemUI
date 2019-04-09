@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="false" android:background="{2:16843829}" android:layout_width="66dp" android:layout_height="-1">
+	<View android:visibility="1" android:layout_width="-1" android:layout_height="34dp" android:layout_weight="{4:0}" />
+	<FrameLayout android:theme="@android:style/null" android:id="false" android:layout_width="66dp" android:layout_height="84dp" android:layout_weight="{4:0}">
+		<ImageView android:id="false" android:layout_width="-1" android:layout_height="-1" android:src="res/drawable/screen_pinning_light_bg_circ.xml" android:scaleType="0" />
+		<ImageView android:id="false" android:paddingLeft="14dp" android:paddingTop="14dp" android:paddingBottom="14dp" android:layout_width="-1" android:layout_height="-1" android:src="res/drawable/screen_pinning_bg_circ.xml" android:scaleType="0" />
+		<ImageView android:paddingLeft="18dp" android:paddingTop="7dp" android:paddingBottom="7dp" android:layout_width="-1" android:layout_height="-1" android:src="res/drawable-xxxhdpi-v4/ic_sysbar_recent.png" android:scaleType="5" />
+	</FrameLayout>
+	<View android:visibility="1" android:layout_width="-1" android:layout_height="-1" android:layout_weight="{4:1065353216}" />
+	<FrameLayout android:id="false" android:layout_width="66dp" android:layout_height="84dp" android:layout_weight="{4:0}">
+		<ImageView android:paddingLeft="18dp" android:paddingTop="7dp" android:paddingBottom="7dp" android:layout_width="-1" android:layout_height="-1" android:src="res/drawable-xxxhdpi-v4/ic_sysbar_home.png" android:scaleType="5" />
+	</FrameLayout>
+	<View android:visibility="1" android:layout_width="-1" android:layout_height="-1" android:layout_weight="{4:1065353216}" />
+	<FrameLayout android:theme="@android:style/null" android:id="false" android:layout_width="66dp" android:layout_height="84dp" android:layout_weight="{4:0}">
+		<ImageView android:id="false" android:layout_width="-1" android:layout_height="-1" android:src="res/drawable/screen_pinning_light_bg_circ.xml" android:scaleType="0" />
+		<ImageView android:id="false" android:paddingLeft="14dp" android:paddingTop="14dp" android:paddingBottom="14dp" android:layout_width="-1" android:layout_height="-1" android:src="res/drawable/screen_pinning_bg_circ.xml" android:scaleType="0" />
+		<ImageView android:paddingLeft="18dp" android:paddingTop="7dp" android:paddingBottom="7dp" android:layout_width="-1" android:layout_height="-1" android:src="res/drawable-xxxhdpi-v4/ic_sysbar_back.png" android:scaleType="5" />
+	</FrameLayout>
+	<View android:visibility="1" android:layout_width="-1" android:layout_height="34dp" android:layout_weight="{4:0}" />
+</LinearLayout>

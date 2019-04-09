@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.NotificationShelf xmlns:android="http://schemas.android.com/apk/res/android" android:focusable="true" android:clickable="true" android:layout_width="-1" android:layout_height="32dp">
+	<com.android.systemui.statusbar.NotificationBackgroundView android:id="false" android:layout_width="-1" android:layout_height="-1" />
+	<com.android.systemui.statusbar.NotificationBackgroundView android:id="false" android:layout_width="-1" android:layout_height="-1" />
+	<com.android.systemui.statusbar.phone.NotificationIconContainer android:gravity="0x10" android:id="false" android:layout_width="-1" android:layout_height="-1" android:paddingStart="13dp" android:paddingEnd="13dp" />
+	<com.android.systemui.statusbar.notification.FakeShadowView android:id="false" android:layout_width="-1" android:layout_height="-1" />
+</com.android.systemui.statusbar.NotificationShelf>

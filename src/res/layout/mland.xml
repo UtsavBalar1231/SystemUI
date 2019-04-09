@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<com.android.systemui.egg.MLand android:id="false" android:layout_width="-1" android:layout_height="-1" />
+	<FrameLayout android:id="false" android:background="a0000" android:visibility="2" android:clickable="true" android:layout_width="-1" android:layout_height="-1">
+		<FrameLayout android:layout_gravity="0x11" android:id="false" android:background="res/drawable-nodpi-v4/ripplebg.xml" android:focusable="true" android:clickable="true" android:layout_width="72dp" android:layout_height="72dp" android:onClick="startButtonPressed">
+			<ImageView android:layout_gravity="0x11" android:id="false" android:layout_width="48dp" android:layout_height="48dp" android:src="res/drawable-nodpi-v4/play.xml" android:scaleType="3" android:tint="000" />
+			<TextView android:textSize="40dp" android:textColor="000" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:alpha="{4:0}" />
+		</FrameLayout>
+	</FrameLayout>
+	<LinearLayout android:gravity="0x10" android:layout_gravity="0x31" android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2">
+		<ImageButton android:id="false" android:padding="10dp" android:layout_width="48dp" android:layout_height="48dp" android:src="res/drawable-nodpi-v4/minus.xml" android:scaleType="7" android:onClick="playerMinus" style="@android:style/Widget.Material.Button.Borderless" />
+		<LinearLayout android:orientation="0" android:id="false" android:padding="12dp" android:clipToPadding="false" android:layout_width="-2" android:layout_height="64dp" />
+		<ImageButton android:id="false" android:padding="10dp" android:layout_width="48dp" android:layout_height="48dp" android:src="res/drawable-nodpi-v4/plus.xml" android:scaleType="7" android:onClick="playerPlus" style="@android:style/Widget.Material.Button.Borderless" />
+	</LinearLayout>
+</FrameLayout>

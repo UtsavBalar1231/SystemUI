@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.qs.QSBtFooter xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x11" android:orientation="1" android:id="false" android:focusable="true" android:clickable="true" android:layout_width="-1" android:layout_height="-2">
+	<LinearLayout android:gravity="0x10" android:id="false" android:clickable="true" android:layout_width="-1" android:layout_height="32dp" android:paddingStart="16dp" android:paddingEnd="24dp">
+		<TextView android:textAppearance="resourceId:0x7f120321" android:textColor="{2:16842808}" android:gravity="0x800003" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_weight="{4:1065353216}" />
+		<ImageView android:id="false" android:layout_width="16dp" android:layout_height="16dp" android:src="res/drawable/ic_info_outline.xml" android:tint="{2:16842808}" android:contentDescription="resourceId:0x0" />
+	</LinearLayout>
+	<View android:id="false" android:background="resourceId:0x1060000" android:visibility="2" android:layout_width="-1" android:layout_height="1dp" />
+	<LinearLayout android:gravity="0x11" android:orientation="0" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="56dp" android:paddingStart="27dp" android:paddingEnd="27dp">
+		<FrameLayout android:gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+			<TextView android:textSize="15sp" android:id="false" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:text="Audio output" android:layout_weight="{4:1065353216}" android:layout_marginEnd="16dp" />
+			<View android:layout_gravity="0x15" android:id="false" android:layout_width="93dp" android:layout_height="0dp" />
+		</FrameLayout>
+		<com.android.systemui.qs.QSSpinner android:id="false" android:layout_width="152dp" android:layout_height="-2" android:textAlignment="5" />
+	</LinearLayout>
+</com.android.systemui.qs.QSBtFooter>

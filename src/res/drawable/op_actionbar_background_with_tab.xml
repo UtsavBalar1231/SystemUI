@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:gravity="0x77">
+		<shape android:tint="{2:2130968958}" android:shape="0">
+			<solid android:color="resourceId:0x106000b" />
+		</shape>
+	</item>
+</layer-list>

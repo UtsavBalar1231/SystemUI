@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:id="false" android:background="{2:2130968702}" android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:orientation="0" android:id="false" android:paddingLeft="24dp" android:paddingRight="12dp" android:layout_width="-1" android:layout_height="-2">
+			<TextView android:textAppearance="resourceId:0x7f12030d" android:ellipsize="3" android:gravity="0x10" android:id="false" android:layout_width="0dp" android:layout_height="72dp" android:singleLine="true" android:layout_weight="{4:1065353216}" />
+			<ImageButton android:layout_gravity="0x10" android:id="false" android:background="{2:2130969162}" android:layout_width="48dp" android:layout_height="48dp" android:src="{2:2130968925}" android:contentDescription="Close" />
+		</LinearLayout>
+		<FrameLayout android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" />
+		<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="-2">
+			<ImageView android:layout_gravity="0x30" android:id="false" android:background="{2:2130968708}" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:scaleType="1" android:adjustViewBounds="true" android:contentDescription="Album art" />
+			<LinearLayout android:layout_gravity="0x50" android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:splitMotionEvents="false">
+				<LinearLayout android:theme="{2:2130968926}" android:layout_gravity="0x50" android:orientation="1" android:id="false" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="-1" android:layout_height="-2">
+					<include android:id="false" layout="res/layout/mr_playback_control.xml" />
+					<View android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="8dp" />
+					<include android:id="false" layout="res/layout/mr_volume_control.xml" />
+				</LinearLayout>
+				<android.support.v7.app.OverlayListView android:theme="{2:2130968926}" android:scrollbarStyle="33554432" android:id="false" android:paddingTop="16dp" android:visibility="2" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-2" android:splitMotionEvents="false" />
+			</LinearLayout>
+		</FrameLayout>
+		<include layout="res/layout/abc_alert_dialog_button_bar_material.xml" />
+	</LinearLayout>
+</FrameLayout>

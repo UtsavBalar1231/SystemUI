@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v17.leanback.app.GuidedStepRootLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x50" android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-1" android:weightSum="{4:1073741824}">
+	<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{2:2130968843}">
+		<LinearLayout android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-1" android:baselineAligned="false">
+			<android.support.v17.leanback.widget.NonOverlappingFrameLayout android:id="false" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}" />
+			<android.support.v17.leanback.widget.NonOverlappingFrameLayout android:orientation="0" android:id="false" android:clipChildren="false" android:clipToPadding="false" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{2:2130968810}" android:paddingStart="32dp" android:transitionName="action_fragment_root" android:transitionGroup="false">
+				<android.support.v17.leanback.widget.NonOverlappingView android:orientation="0" android:id="false" android:background="{2:2130968828}" android:layout_width="-1" android:layout_height="-1" android:transitionName="action_fragment_background" android:elevation="{2:2130968831}" android:outlineProvider="3" />
+				<android.support.v17.leanback.widget.NonOverlappingLinearLayout android:orientation="0" android:id="false" android:focusable="true" android:descendantFocusability="1" android:layout_width="-1" android:layout_height="-1" android:transitionName="action_fragment" android:transitionGroup="false" android:elevation="{2:2130968831}" />
+			</android.support.v17.leanback.widget.NonOverlappingFrameLayout>
+		</LinearLayout>
+	</FrameLayout>
+</android.support.v17.leanback.app.GuidedStepRootLayout>

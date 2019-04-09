@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.phone.NotificationPanelView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:systemui="http://schemas.android.com/apk/res-auto" android:id="false" android:background="resourceId:0x106000d" android:layout_width="-1" android:layout_height="-1">
+	<include android:visibility="2" android:layout_height="-2" layout="res/layout/keyguard_status_view.xml" />
+	<com.android.systemui.statusbar.phone.NotificationsQuickSettingsContainer android:layout_gravity="0x31" android:id="false" android:clipChildren="false" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-1">
+		<FrameLayout android:layout_gravity="0x31" android:id="false" android:clipChildren="false" android:clipToPadding="false" android:layout="res/layout/qs_panel.xml" android:layout_width="-1px" android:layout_height="-1" systemui:viewType="com.android.systemui.plugins.qs.QS" />
+		<com.android.systemui.statusbar.stack.NotificationStackScrollLayout android:layout_gravity="0x31" android:id="false" android:layout_width="-1px" android:layout_height="-1" android:layout_marginBottom="32dp" />
+		<ViewStub android:id="false" android:layout="res/layout/keyguard_user_switcher.xml" android:layout_width="-1" android:layout_height="-1" />
+		<include android:visibility="1" layout="res/layout/keyguard_status_bar.xml" />
+		<ImageButton android:layout_gravity="0x51" android:id="false" android:background="res/drawable/floating_action_button.xml" android:visibility="2" android:layout_width="56dp" android:layout_height="56dp" android:layout_marginBottom="18dp" android:src="res/drawable/recents_dismiss_all_icon.xml" android:scaleType="7" android:elevation="30dp" />
+		<Button android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="resourceId:0x105014b" android:text="Report rejected touch" />
+	</com.android.systemui.statusbar.phone.NotificationsQuickSettingsContainer>
+	<include android:visibility="2" layout="res/layout/keyguard_bottom_area.xml" />
+	<com.android.systemui.statusbar.AlphaOptimizedView android:layout_gravity="0x50" android:id="false" android:background="res/drawable/qs_navbar_scrim.xml" android:visibility="1" android:layout_width="-1" android:layout_height="96dp" />
+</com.android.systemui.statusbar.phone.NotificationPanelView>

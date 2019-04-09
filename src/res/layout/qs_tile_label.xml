@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.qs.tileimpl.ButtonRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:clipChildren="false" android:clipToPadding="false" android:layout_width="-1" android:layout_height="37dp">
+	<LinearLayout android:gravity="0x11" android:orientation="0" android:id="false" android:clipChildren="false" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentTop="true">
+		<Space android:id="false" android:layout_width="22dp" android:layout_height="0dp" />
+		<TextView android:textAppearance="resourceId:0x7f120321" android:textColor="{2:16842806}" android:ellipsize="3" android:gravity="0x31" android:id="false" android:padding="0dp" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:maxLines="2" android:includeFontPadding="false" android:autoSizeTextType="1" />
+		<ImageView android:id="false" android:paddingBottom="412876unknown unit:0x22" android:visibility="2" android:layout_width="412876unknown unit:0x22" android:layout_height="-1" android:layout_marginLeft="4dp" android:src="res/drawable/ic_info.xml" android:scaleType="7" />
+		<ImageView android:id="false" android:visibility="2" android:layout_width="18dp" android:layout_height="-1" android:src="res/drawable/qs_dual_tile_caret.xml" android:tint="{2:16842806}" android:layout_marginStart="4dp" />
+	</LinearLayout>
+	<TextView android:textAppearance="resourceId:0x7f120321" android:textColor="{2:16842806}" android:gravity="0x31" android:id="false" android:padding="0dp" android:visibility="2" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:maxLines="1" android:includeFontPadding="false" android:layout_below="false" android:layout_alignStart="false" android:layout_alignEnd="false" android:autoSizeTextType="1" />
+	<View android:id="false" android:background="{2:16842800}" android:visibility="2" android:layout_width="30dp" android:layout_height="1dp" android:layout_marginTop="2dp" android:layout_below="false" android:alpha="{2:16842803}" android:layout_alignStart="false" android:layout_alignEnd="false" />
+</com.android.systemui.qs.tileimpl.ButtonRelativeLayout>

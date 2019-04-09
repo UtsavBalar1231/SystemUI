@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="true">
+	<item android:duration="13" android:drawable="res/drawable-xxxhdpi-v4/ic_group_collapse_00.png" />
+	<item android:duration="13" android:drawable="res/drawable-xxxhdpi-v4/ic_group_collapse_01.png" />
+	<item android:duration="13" android:drawable="res/drawable-xxxhdpi-v4/ic_group_collapse_02.png" />
+	<item android:duration="13" android:drawable="res/drawable-xxxhdpi-v4/ic_group_collapse_03.png" />
+	<item android:duration="13" android:drawable="res/drawable-xxxhdpi-v4/ic_group_collapse_04.png" />
+	<item android:duration="13" android:drawable="res/drawable-xxxhdpi-v4/ic_group_collapse_05.png" />
+	<item android:duration="13" android:drawable="res/drawable-xxxhdpi-v4/ic_group_collapse_06.png" />
+	<item android:duration="13" android:drawable="res/drawable-xxxhdpi-v4/ic_group_collapse_07.png" />
+	<item android:duration="13" android:drawable="res/drawable-xxxhdpi-v4/ic_group_collapse_08.png" />
+	<item android:duration="13" android:drawable="res/drawable-xxxhdpi-v4/ic_group_collapse_09.png" />
+	<item android:duration="13" android:drawable="res/drawable-xxxhdpi-v4/ic_group_collapse_10.png" />
+	<item android:duration="13" android:drawable="res/drawable-xxxhdpi-v4/ic_group_collapse_11.png" />
+	<item android:duration="13" android:drawable="res/drawable-xxxhdpi-v4/ic_group_collapse_12.png" />
+	<item android:duration="13" android:drawable="res/drawable-xxxhdpi-v4/ic_group_collapse_13.png" />
+	<item android:duration="13" android:drawable="res/drawable-xxxhdpi-v4/ic_group_collapse_14.png" />
+	<item android:duration="13" android:drawable="res/drawable-xxxhdpi-v4/ic_group_collapse_15.png" />
+</animation-list>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+	<item android:duration="42" android:drawable="res/drawable-xxhdpi-v4/ic_mr_button_connecting_00_dark.png" />
+	<item android:duration="42" android:drawable="res/drawable-xxhdpi-v4/ic_mr_button_connecting_01_dark.png" />
+	<item android:duration="42" android:drawable="res/drawable-xxhdpi-v4/ic_mr_button_connecting_02_dark.png" />
+	<item android:duration="42" android:drawable="res/drawable-xxhdpi-v4/ic_mr_button_connecting_03_dark.png" />
+	<item android:duration="42" android:drawable="res/drawable-xxhdpi-v4/ic_mr_button_connecting_04_dark.png" />
+	<item android:duration="42" android:drawable="res/drawable-xxhdpi-v4/ic_mr_button_connecting_05_dark.png" />
+	<item android:duration="42" android:drawable="res/drawable-xxhdpi-v4/ic_mr_button_connecting_06_dark.png" />
+	<item android:duration="42" android:drawable="res/drawable-xxhdpi-v4/ic_mr_button_connecting_07_dark.png" />
+	<item android:duration="42" android:drawable="res/drawable-xxhdpi-v4/ic_mr_button_connecting_08_dark.png" />
+	<item android:duration="42" android:drawable="res/drawable-xxhdpi-v4/ic_mr_button_connecting_09_dark.png" />
+	<item android:duration="42" android:drawable="res/drawable-xxhdpi-v4/ic_mr_button_connecting_10_dark.png" />
+	<item android:duration="42" android:drawable="res/drawable-xxhdpi-v4/ic_mr_button_connecting_11_dark.png" />
+	<item android:duration="42" android:drawable="res/drawable-xxhdpi-v4/ic_mr_button_connecting_12_dark.png" />
+	<item android:duration="42" android:drawable="res/drawable-xxhdpi-v4/ic_mr_button_connecting_13_dark.png" />
+	<item android:duration="42" android:drawable="res/drawable-xxhdpi-v4/ic_mr_button_connecting_14_dark.png" />
+	<item android:duration="42" android:drawable="res/drawable-xxhdpi-v4/ic_mr_button_connecting_15_dark.png" />
+	<item android:duration="42" android:drawable="res/drawable-xxhdpi-v4/ic_mr_button_connecting_16_dark.png" />
+	<item android:duration="42" android:drawable="res/drawable-xxhdpi-v4/ic_mr_button_connecting_17_dark.png" />
+	<item android:duration="42" android:drawable="res/drawable-xxhdpi-v4/ic_mr_button_connecting_18_dark.png" />
+	<item android:duration="42" android:drawable="res/drawable-xxhdpi-v4/ic_mr_button_connecting_19_dark.png" />
+	<item android:duration="42" android:drawable="res/drawable-xxhdpi-v4/ic_mr_button_connecting_20_dark.png" />
+	<item android:duration="42" android:drawable="res/drawable-xxhdpi-v4/ic_mr_button_connecting_21_dark.png" />
+	<item android:duration="42" android:drawable="res/drawable-xxhdpi-v4/ic_mr_button_connecting_22_dark.png" />
+</animation-list>

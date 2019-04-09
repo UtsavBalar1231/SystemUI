@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.phone.KeyguardBottomAreaView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" android:id="false" android:layout_width="-1" android:layout_height="-1" android:elevation="5dp" android:outlineProvider="1">
+	<ImageView android:layout_gravity="0x51" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="16dp" android:src="res/drawable-xxhdpi-v4/dash_img.png" android:scaleType="5" />
+	<LinearLayout android:layout_gravity="0x51" android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="46dp" android:forceHasOverlappingRendering="false">
+		<com.android.systemui.statusbar.phone.KeyguardIndicationTextView android:textAppearance="{2:16842818}" android:textStyle="0x2" android:textColor="ffffff" android:gravity="0x1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" />
+		<TextView android:textAppearance="{2:16842818}" android:textSize="18sp" android:textStyle="0x2" android:textColor="ffffff" android:gravity="0x1" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+		<com.android.systemui.statusbar.phone.KeyguardIndicationTextView android:textAppearance="{2:16842818}" android:textStyle="0x2" android:textColor="ffffff" android:gravity="0x1" android:layout_gravity="0x51" android:id="false" android:layout_width="-1" android:layout_height="-2" android:accessibilityLiveRegion="1" />
+	</LinearLayout>
+	<include android:gravity="0x1" android:layout_gravity="0x51" android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="70dp" layout="res/layout/keyguard_emergency_carrier_area.xml" />
+	<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="-1" />
+	<com.android.systemui.statusbar.KeyguardAffordanceView android:layout_gravity="0x800055" android:id="false" android:layout_width="56dp" android:layout_height="56dp" android:src="res/drawable-xxxhdpi-v4/ic_camera_alt_24dp.png" android:scaleType="5" android:tint="ffffffff" android:contentDescription="Camera" />
+	<com.android.systemui.statusbar.KeyguardAffordanceView android:layout_gravity="0x800053" android:id="false" android:layout_width="56dp" android:layout_height="56dp" android:src="res/drawable-xxxhdpi-v4/ic_phone_24dp.png" android:scaleType="5" android:tint="ffffffff" android:contentDescription="Phone" />
+	<com.android.systemui.statusbar.phone.LockIcon android:layout_gravity="0x51" android:id="false" android:layout_width="56dp" android:layout_height="56dp" android:src="res/drawable/ic_lock_24dp.xml" android:scaleType="5" android:contentDescription="Unlock" />
+</com.android.systemui.statusbar.phone.KeyguardBottomAreaView>

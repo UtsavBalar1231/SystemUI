@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:state_enabled="false" android:state_checked="true">
+		<bitmap android:src="res/drawable-xxxhdpi-v4/btn_radio_to_on_mtrl_015.png" android:tint="{2:16843817}" android:alpha="{2:16842803}" />
+	</item>
+	<item android:state_enabled="false">
+		<bitmap android:src="res/drawable-xxxhdpi-v4/btn_radio_to_on_mtrl_000.png" android:tint="{2:16843817}" android:alpha="{2:16842803}" />
+	</item>
+	<item android:state_checked="true" android:id="false">
+		<bitmap android:src="res/drawable-xxxhdpi-v4/btn_radio_to_on_mtrl_015.png" android:tint="{2:2130968970}" />
+	</item>
+	<item android:id="false">
+		<bitmap android:src="res/drawable-xxxhdpi-v4/btn_radio_to_on_mtrl_000.png" android:tint="{2:16843817}" />
+	</item>
+	<transition android:toId="false" android:fromId="false">
+		<animation-list>
+			<item android:duration="15">
+				<bitmap android:src="res/drawable-xxxhdpi-v4/btn_radio_to_on_mtrl_000.png" android:tint="{2:16843817}" />
+			</item>
+			<item android:duration="15">
+				<bitmap android:src="res/drawable-xxxhdpi-v4/btn_radio_to_on_mtrl_001.png" android:tint="{2:16843817}" />
+			</item>
+			<item android:duration="15">
+				<bitmap android:src="res/drawable-xxxhdpi-v4/btn_radio_to_on_mtrl_002.png" android:tint="{2:16843817}" />
+			</item>
+			<item android:duration="15">
+				<bitmap android:src="res/drawable-xxxhdpi-v4/btn_radio_to_on_mtrl_003.png" android:tint="{2:16843817}" />
+			</item>
+			<item android:duration="15">
+				<bitmap android:src="res/drawable-xxxhdpi-v4/btn_radio_to_on_mtrl_004.png" android:tint="{2:16843817}" />
+			</item>
+			<item android:duration="15">
+				<bitmap android:src="res/drawable-xxxhdpi-v4/btn_radio_to_on_mtrl_005.png" android:tint="{2:16843817}" />
+			</item>
+			<item android:duration="15">
+				<bitmap android:src="res/drawable-xxxhdpi-v4/btn_radio_to_on_mtrl_006.png" android:tint="{2:16843817}" />
+			</item>
+			<item android:duration="15">
+				<bitmap android:src="res/drawable-xxxhdpi-v4/btn_radio_to_on_mtrl_007.png" android:tint="{2:16843817}" />
+			</item>
+			<item android:duration="15">
+				<bitmap android:src="res/drawable-xxxhdpi-v4/btn_radio_to_on_mtrl_008.png" android:tint="{2:2130968970}" />
+			</item>
+			<item android:duration="15">
+				<bitmap android:src="res/drawable-xxxhdpi-v4/btn_radio_to_on_mtrl_009.png" android:tint="{2:2130968970}" />
+			</item>
+			<item android:duration="15">
+				<bitmap android:src="res/drawable-xxxhdpi-v4/btn_radio_to_on_mtrl_010.png" android:tint="{2:2130968970}" />
+			</item>
+			<item android:duration="15">
+				<bitmap android:src="res/drawable-xxxhdpi-v4/btn_radio_to_on_mtrl_011.png" android:tint="{2:2130968970}" />
+			</item>
+			<item android:duration="15">
+				<bitmap android:src="res/drawable-xxxhdpi-v4/btn_radio_to_on_mtrl_012.png" android:tint="{2:2130968970}" />
+			</item>
+			<item android:duration="15">
+				<bitmap android:src="res/drawable-xxxhdpi-v4/btn_radio_to_on_mtrl_013.png" android:tint="{2:2130968970}" />
+			</item>
+			<item android:duration="15">
+				<bitmap android:src="res/drawable-xxxhdpi-v4/btn_radio_to_on_mtrl_014.png" android:tint="{2:2130968970}" />
+			</item>
+			<item android:duration="15">
+				<bitmap android:src="res/drawable-xxxhdpi-v4/btn_radio_to_on_mtrl_015.png" android:tint="{2:2130968970}" />
+			</item>
+		</animation-list>
+	</transition>
+	<transition android:toId="false" android:fromId="false">
+		<animation-list>
+			<item android:duration="15">
+				<bitmap android:src="res/drawable-xxxhdpi-v4/btn_radio_to_off_mtrl_000.png" android:tint="{2:2130968970}" />
+			</item>
+			<item android:duration="15">
+				<bitmap android:src="res/drawable-xxxhdpi-v4/btn_radio_to_off_mtrl_001.png" android:tint="{2:2130968970}" />
+			</item>
+			<item android:duration="15">
+				<bitmap android:src="res/drawable-xxxhdpi-v4/btn_radio_to_off_mtrl_002.png" android:tint="{2:2130968970}" />
+			</item>
+			<item android:duration="15">
+				<bitmap android:src="res/drawable-xxxhdpi-v4/btn_radio_to_off_mtrl_003.png" android:tint="{2:2130968970}" />
+			</item>
+			<item android:duration="15">
+				<bitmap android:src="res/drawable-xxxhdpi-v4/btn_radio_to_off_mtrl_004.png" android:tint="{2:2130968970}" />
+			</item>
+			<item android:duration="15">
+				<bitmap android:src="res/drawable-xxxhdpi-v4/btn_radio_to_off_mtrl_005.png" android:tint="{2:2130968970}" />
+			</item>
+			<item android:duration="15">
+				<bitmap android:src="res/drawable-xxxhdpi-v4/btn_radio_to_off_mtrl_006.png" android:tint="{2:2130968970}" />
+			</item>
+			<item android:duration="15">
+				<bitmap android:src="res/drawable-xxxhdpi-v4/btn_radio_to_off_mtrl_007.png" android:tint="{2:2130968970}" />
+			</item>
+			<item android:duration="15">
+				<bitmap android:src="res/drawable-xxxhdpi-v4/btn_radio_to_off_mtrl_008.png" android:tint="{2:16843817}" />
+			</item>
+			<item android:duration="15">
+				<bitmap android:src="res/drawable-xxxhdpi-v4/btn_radio_to_off_mtrl_009.png" android:tint="{2:16843817}" />
+			</item>
+			<item android:duration="15">
+				<bitmap android:src="res/drawable-xxxhdpi-v4/btn_radio_to_off_mtrl_010.png" android:tint="{2:16843817}" />
+			</item>
+			<item android:duration="15">
+				<bitmap android:src="res/drawable-xxxhdpi-v4/btn_radio_to_off_mtrl_011.png" android:tint="{2:16843817}" />
+			</item>
+			<item android:duration="15">
+				<bitmap android:src="res/drawable-xxxhdpi-v4/btn_radio_to_off_mtrl_012.png" android:tint="{2:16843817}" />
+			</item>
+			<item android:duration="15">
+				<bitmap android:src="res/drawable-xxxhdpi-v4/btn_radio_to_off_mtrl_013.png" android:tint="{2:16843817}" />
+			</item>
+			<item android:duration="15">
+				<bitmap android:src="res/drawable-xxxhdpi-v4/btn_radio_to_off_mtrl_014.png" android:tint="{2:16843817}" />
+			</item>
+			<item android:duration="15">
+				<bitmap android:src="res/drawable-xxxhdpi-v4/btn_radio_to_off_mtrl_015.png" android:tint="{2:16843817}" />
+			</item>
+		</animation-list>
+	</transition>
+</animated-selector>

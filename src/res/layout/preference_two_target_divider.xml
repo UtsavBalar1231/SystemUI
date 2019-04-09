@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x800013" android:orientation="0" android:id="false" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="-2" android:layout_height="-1">
+	<View android:background="{2:16843530}" android:layout_width="1dp" android:layout_height="-1" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:systemui="http://schemas.android.com/apk/res-auto" android:background="98000" android:layout_width="-1" android:layout_height="-1">
+	<View android:id="false" android:visibility="1" android:layout_width="-1" android:layout_height="60dp" android:layout_alignParentTop="true" />
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:systemui="http://schemas.android.com/apk/res-auto" android:gravity="0x1" android:orientation="1" android:layout_width="324dp" android:layout_height="350dp" android:layout_below="false" android:layout_centerHorizontal="true">
+		<ImageView android:background="res/drawable/ic_game_mode_demo.png" android:layout_width="282dp" android:layout_height="112dp" />
+		<LinearLayout android:gravity="0x11" android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+			<ImageView android:layout_width="15dp" android:layout_height="8dp" android:src="res/drawable/ic_game_mode_arrow.png" />
+			<FrameLayout android:gravity="0x11" android:background="res/drawable/game_mode_rounded_background.xml" android:layout_width="324dp" android:layout_height="-2">
+				<TextView android:textSize="16sp" android:textColor="resourceId:0x106000b" android:layout_gravity="0x50" android:id="false" android:padding="16dp" android:scrollbars="0x200" android:layout_width="-1" android:layout_height="-2" android:lineSpacingExtra="5dp" />
+			</FrameLayout>
+		</LinearLayout>
+	</LinearLayout>
+	<Button android:textSize="16sp" android:textColor="resourceId:0x106000b" android:id="false" android:background="res/drawable/game_mode_rounded_button.xml" android:layout_width="-2" android:layout_height="36dp" android:layout_marginBottom="32dp" android:text="Got it" android:layout_alignParentBottom="true" android:layout_marginEnd="32dp" android:layout_alignParentEnd="true" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<com.android.systemui.recents.views.FixedSizeImageView android:layout_gravity="0x800013" android:id="false" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="-2" android:layout_height="-2" android:contentDescription="Application Info" android:paddingStart="16dp" android:paddingEnd="12dp" />
+	<TextView android:textSize="16sp" android:textColor="ffffffff" android:ellipsize="4" android:layout_gravity="0x800013" android:id="false" android:fadingEdge="0x1000" android:layout_width="-1" android:layout_height="-2" android:text="No recent items" android:maxLines="2" android:singleLine="true" android:fontFamily="sans-serif-medium" />
+	<com.android.systemui.recents.views.FixedSizeImageView android:layout_gravity="0x800015" android:id="false" android:background="{2:16843534}" android:padding="16dp" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable/recents_info_light.xml" />
+</FrameLayout>

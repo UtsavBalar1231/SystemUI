@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x10" android:background="cc2296f3" android:layout_width="-1" android:layout_height="-2" android:paddingStart="24dp" android:paddingEnd="24dp">
+	<TextView android:textAppearance="resourceId:0x7f12042f" android:textColor="ffffffff" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="36dp" android:text="Swipe up from the bottom to show the navigation bar. If you want to stop hiding navigation, please tap" android:lineSpacingExtra="8dp" />
+	<Button android:textAppearance="resourceId:0x7f120427" android:textColor="ffffffff" android:id="false" android:background="res/drawable/btn_borderless_rect.xml" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8dp" android:text="GOT IT" android:layout_below="false" android:layout_alignParentEnd="true" />
+	<ImageView android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="19dp" android:layout_marginBottom="-792985unknown unit:0x21" android:src="res/drawable/ic_nav_bar_guide_circ.xml" android:scaleType="7" android:layout_below="false" android:layout_centerHorizontal="true" />
+</RelativeLayout>

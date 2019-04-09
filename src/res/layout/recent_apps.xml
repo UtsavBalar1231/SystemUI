@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.policy.KeyButtonView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:systemui="http://schemas.android.com/apk/res-auto" android:id="false" android:layout_width="70dp" android:layout_height="-1" android:scaleType="5" android:layout_weight="{4:0}" android:contentDescription="Overview" android:paddingStart="0dp" android:paddingEnd="0dp" />

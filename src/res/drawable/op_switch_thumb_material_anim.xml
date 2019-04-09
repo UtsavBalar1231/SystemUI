@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android" android:constantSize="true">
+	<item android:state_enabled="false" android:id="false">
+		<nine-patch android:gravity="0x11" android:src="res/drawable-xxxhdpi-v4/btn_switch_to_on_mtrl_00001.9.png" android:tint="res/color/op_switch_thumb_material_selector.xml" android:tintMode="14" />
+	</item>
+	<item android:state_checked="true" android:id="false">
+		<nine-patch android:gravity="0x11" android:src="res/drawable-xxxhdpi-v4/btn_switch_to_on_mtrl_00012.9.png" android:tint="{2:2130968970}" android:tintMode="14" />
+	</item>
+	<item android:id="false">
+		<nine-patch android:gravity="0x11" android:src="res/drawable-xxxhdpi-v4/btn_switch_to_on_mtrl_00001.9.png" android:tint="res/color/op_switch_thumb_material_selector.xml" android:tintMode="14" />
+	</item>
+	<transition android:toId="false" android:fromId="false">
+		<animation-list>
+			<item android:duration="15">
+				<nine-patch android:gravity="0x11" android:src="res/drawable-xxxhdpi-v4/btn_switch_to_on_mtrl_00001.9.png" android:tint="res/color/op_switch_thumb_material_selector.xml" android:tintMode="14" />
+			</item>
+			<item android:duration="15">
+				<nine-patch android:gravity="0x11" android:src="res/drawable-xxxhdpi-v4/btn_switch_to_on_mtrl_00002.9.png" android:tint="res/color/op_switch_thumb_material_selector.xml" android:tintMode="14" />
+			</item>
+			<item android:duration="15">
+				<nine-patch android:gravity="0x11" android:src="res/drawable-xxxhdpi-v4/btn_switch_to_on_mtrl_00003.9.png" android:tint="res/color/op_switch_thumb_material_selector.xml" android:tintMode="14" />
+			</item>
+			<item android:duration="15">
+				<nine-patch android:gravity="0x11" android:src="res/drawable-xxxhdpi-v4/btn_switch_to_on_mtrl_00004.9.png" android:tint="res/color/op_switch_thumb_material_selector.xml" android:tintMode="14" />
+			</item>
+			<item android:duration="15">
+				<nine-patch android:gravity="0x11" android:src="res/drawable-xxxhdpi-v4/btn_switch_to_on_mtrl_00005.9.png" android:tint="res/color/op_switch_thumb_material_selector.xml" android:tintMode="14" />
+			</item>
+			<item android:duration="15">
+				<nine-patch android:gravity="0x11" android:src="res/drawable-xxxhdpi-v4/btn_switch_to_on_mtrl_00006.9.png" android:tint="res/color/op_switch_thumb_material_selector.xml" android:tintMode="14" />
+			</item>
+			<item android:duration="15">
+				<nine-patch android:gravity="0x11" android:src="res/drawable-xxxhdpi-v4/btn_switch_to_on_mtrl_00007.9.png" android:tint="{2:2130968970}" android:tintMode="14" />
+			</item>
+			<item android:duration="15">
+				<nine-patch android:gravity="0x11" android:src="res/drawable-xxxhdpi-v4/btn_switch_to_on_mtrl_00008.9.png" android:tint="{2:2130968970}" android:tintMode="14" />
+			</item>
+			<item android:duration="15">
+				<nine-patch android:gravity="0x11" android:src="res/drawable-xxxhdpi-v4/btn_switch_to_on_mtrl_00009.9.png" android:tint="{2:2130968970}" android:tintMode="14" />
+			</item>
+			<item android:duration="15">
+				<nine-patch android:gravity="0x11" android:src="res/drawable-xxxhdpi-v4/btn_switch_to_on_mtrl_00010.9.png" android:tint="{2:2130968970}" android:tintMode="14" />
+			</item>
+			<item android:duration="15">
+				<nine-patch android:gravity="0x11" android:src="res/drawable-xxxhdpi-v4/btn_switch_to_on_mtrl_00011.9.png" android:tint="{2:2130968970}" android:tintMode="14" />
+			</item>
+			<item android:duration="15">
+				<nine-patch android:gravity="0x11" android:src="res/drawable-xxxhdpi-v4/btn_switch_to_on_mtrl_00012.9.png" android:tint="{2:2130968970}" android:tintMode="14" />
+			</item>
+		</animation-list>
+	</transition>
+	<transition android:toId="false" android:fromId="false">
+		<animation-list>
+			<item android:duration="15">
+				<nine-patch android:gravity="0x11" android:src="res/drawable-xxxhdpi-v4/btn_switch_to_off_mtrl_00001.9.png" android:tint="{2:2130968970}" android:tintMode="14" />
+			</item>
+			<item android:duration="15">
+				<nine-patch android:gravity="0x11" android:src="res/drawable-xxxhdpi-v4/btn_switch_to_off_mtrl_00002.9.png" android:tint="{2:2130968970}" android:tintMode="14" />
+			</item>
+			<item android:duration="15">
+				<nine-patch android:gravity="0x11" android:src="res/drawable-xxxhdpi-v4/btn_switch_to_off_mtrl_00003.9.png" android:tint="{2:2130968970}" android:tintMode="14" />
+			</item>
+			<item android:duration="15">
+				<nine-patch android:gravity="0x11" android:src="res/drawable-xxxhdpi-v4/btn_switch_to_off_mtrl_00004.9.png" android:tint="{2:2130968970}" android:tintMode="14" />
+			</item>
+			<item android:duration="15">
+				<nine-patch android:gravity="0x11" android:src="res/drawable-xxxhdpi-v4/btn_switch_to_off_mtrl_00005.9.png" android:tint="{2:2130968970}" android:tintMode="14" />
+			</item>
+			<item android:duration="15">
+				<nine-patch android:gravity="0x11" android:src="res/drawable-xxxhdpi-v4/btn_switch_to_off_mtrl_00006.9.png" android:tint="{2:2130968970}" android:tintMode="14" />
+			</item>
+			<item android:duration="15">
+				<nine-patch android:gravity="0x11" android:src="res/drawable-xxxhdpi-v4/btn_switch_to_off_mtrl_00007.9.png" android:tint="res/color/op_switch_thumb_material_selector.xml" android:tintMode="14" />
+			</item>
+			<item android:duration="15">
+				<nine-patch android:gravity="0x11" android:src="res/drawable-xxxhdpi-v4/btn_switch_to_off_mtrl_00008.9.png" android:tint="res/color/op_switch_thumb_material_selector.xml" android:tintMode="14" />
+			</item>
+			<item android:duration="15">
+				<nine-patch android:gravity="0x11" android:src="res/drawable-xxxhdpi-v4/btn_switch_to_off_mtrl_00009.9.png" android:tint="res/color/op_switch_thumb_material_selector.xml" android:tintMode="14" />
+			</item>
+			<item android:duration="15">
+				<nine-patch android:gravity="0x11" android:src="res/drawable-xxxhdpi-v4/btn_switch_to_off_mtrl_00010.9.png" android:tint="res/color/op_switch_thumb_material_selector.xml" android:tintMode="14" />
+			</item>
+			<item android:duration="15">
+				<nine-patch android:gravity="0x11" android:src="res/drawable-xxxhdpi-v4/btn_switch_to_off_mtrl_00011.9.png" android:tint="res/color/op_switch_thumb_material_selector.xml" android:tintMode="14" />
+			</item>
+			<item android:duration="15">
+				<nine-patch android:gravity="0x11" android:src="res/drawable-xxxhdpi-v4/btn_switch_to_off_mtrl_00012.9.png" android:tint="res/color/op_switch_thumb_material_selector.xml" android:tintMode="14" />
+			</item>
+		</animation-list>
+	</transition>
+</animated-selector>

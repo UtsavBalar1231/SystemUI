@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewStub xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="0x31" android:id="false" android:layout="resourceId:0x1090104" android:inflatedId="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="16dp" android:layout_marginTop="48dp" android:layout_marginRight="16dp" />

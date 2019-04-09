@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" android:drawable="res/drawable/indeterminate.xml">
+	<target android:name="path1" android:animation="res/anim/progress_indeterminate_horizontal_rect1_translate.xml" />
+	<target android:name="path1" android:animation="res/anim/progress_indeterminate_horizontal_rect1_scale.xml" />
+	<target android:name="path2" android:animation="res/anim/progress_indeterminate_horizontal_rect2_translate.xml" />
+	<target android:name="path2" android:animation="res/anim/progress_indeterminate_horizontal_rect2_scale.xml" />
+</animated-vector>

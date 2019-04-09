@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" android:drawable="res/drawable/ic_volume_expand.xml">
+	<target android:name="chevron_01" android:animation="res/anim/ic_volume_expand_chevron_01_animation.xml" />
+	<target android:name="rectangle_3" android:animation="res/anim/ic_volume_expand_rectangle_3_animation.xml" />
+	<target android:name="rectangle_4" android:animation="res/anim/ic_volume_expand_rectangle_4_animation.xml" />
+</animated-vector>

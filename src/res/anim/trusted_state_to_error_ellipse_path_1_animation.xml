@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+	<objectAnimator android:interpolator="resourceId:0x10c000d" android:duration="600" android:valueFrom="ffffffff" android:valueTo="fff3511e" android:propertyName="strokeColor" />
+	<objectAnimator android:interpolator="resourceId:0x10c000d" android:duration="600" android:valueFrom="{4:1056964608}" android:valueTo="{4:1065353216}" android:valueType="0" android:propertyName="strokeAlpha" />
+	<set android:ordering="1">
+		<objectAnimator android:interpolator="resourceId:0x10c000b" android:duration="166" android:valueFrom="{4:1065353216}" android:valueTo="{4:1065353216}" android:valueType="0" android:propertyName="trimPathOffset" />
+		<objectAnimator android:interpolator="res/interpolator/trusted_state_to_error_animation_interpolator_2.xml" android:duration="433" android:valueFrom="{4:1065353216}" android:valueTo="{4:1056964608}" android:valueType="0" android:propertyName="trimPathOffset" />
+	</set>
+	<set android:ordering="1">
+		<objectAnimator android:interpolator="resourceId:0x10c000b" android:duration="166" android:valueFrom="{4:1065353216}" android:valueTo="{4:1065353216}" android:valueType="0" android:propertyName="trimPathStart" />
+		<objectAnimator android:interpolator="res/interpolator/trusted_state_to_error_animation_interpolator_0.xml" android:duration="433" android:valueFrom="{4:1065353216}" android:valueTo="{4:0}" android:valueType="0" android:propertyName="trimPathStart" />
+	</set>
+</set>

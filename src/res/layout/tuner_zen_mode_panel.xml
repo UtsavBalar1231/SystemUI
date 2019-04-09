@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.tuner.TunerZenModePanel xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="false" android:visibility="2" android:clipChildren="false" android:layout_width="-1" android:layout_height="-2">
+	<View android:id="false" android:background="29ffffff" android:layout_width="-1" android:layout_height="1dp" android:layout_marginTop="8dp" android:layout_marginBottom="12dp" />
+	<include android:id="false" android:layout_width="-1" android:layout_height="48dp" android:layout_marginStart="16dp" layout="res/layout/qs_detail_header.xml" />
+	<include layout="res/layout/zen_mode_panel.xml" />
+	<include android:id="false" layout="res/layout/qs_detail_buttons.xml" />
+</com.android.systemui.tuner.TunerZenModePanel>

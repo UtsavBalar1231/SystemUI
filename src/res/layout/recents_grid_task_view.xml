@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.recents.views.grid.GridTaskView xmlns:android="http://schemas.android.com/apk/res/android" android:focusable="true" android:layout_width="-1" android:layout_height="-1">
+	<com.android.systemui.recents.views.grid.GridTaskViewThumbnail android:id="false" android:layout_width="-1" android:layout_height="-1" />
+	<include layout="res/layout/recents_task_view_header.xml" />
+	<include layout="res/layout/recents_task_view_lock_to_app.xml" />
+	<include layout="res/layout/recents_task_view_incompatible_app_toast.xml" />
+</com.android.systemui.recents.views.grid.GridTaskView>

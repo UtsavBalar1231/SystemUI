@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:systemui="http://schemas.android.com/apk/res-auto" android:layout_width="-1" android:layout_height="64dp" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:paddingStart="15dp" android:paddingEnd="15dp" style="resourceId:0x7f1200b6">
+	<ImageView android:layout_gravity="0x10" android:id="false" android:layout_width="48dp" android:layout_height="48dp" android:src="res/drawable/ic_qs_brightness_high.xml" android:scaleType="7" android:contentDescription="resourceId:0x0" />
+	<com.android.systemui.settings.ToggleSliderView android:layout_gravity="0x10" android:id="false" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}" android:contentDescription="Display brightness" android:importantForAccessibility="2" systemui:text="AUTO" />
+	<ImageView android:layout_gravity="0x10" android:id="false" android:background="res/drawable/ripple_drawable_dark.xml" android:layout_width="48dp" android:layout_height="48dp" android:src="res/drawable/ic_qs_brightness_auto_off.xml" android:scaleType="7" android:contentDescription="resourceId:0x0" />
+</LinearLayout>

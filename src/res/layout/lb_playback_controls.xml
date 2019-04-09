@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+	<ProgressBar android:id="false" android:layout_width="-1" android:layout_height="4dp" android:maxHeight="4dp" android:progressDrawable="res/drawable/lb_playback_progress_bar.xml" android:minHeight="4dp" android:layoutDirection="0" style="{2:16842872}" />
+	<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="-2">
+		<android.support.v17.leanback.widget.ControlBar android:layout_gravity="0x1" android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layoutDirection="0" />
+		<FrameLayout android:layout_gravity="0x800005" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+		<TextView android:layout_gravity="0x33" android:id="false" android:paddingTop="8dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginStart="16dp" style="{2:2130969083}" />
+		<TextView android:layout_gravity="0x35" android:id="false" android:paddingTop="8dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginEnd="16dp" style="{2:2130969083}" />
+	</FrameLayout>
+</LinearLayout>

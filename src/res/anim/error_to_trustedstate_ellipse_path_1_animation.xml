@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+	<objectAnimator android:interpolator="resourceId:0x10c000d" android:duration="600" android:valueFrom="fff3511e" android:valueTo="ffffffff" android:propertyName="strokeColor" />
+	<objectAnimator android:interpolator="resourceId:0x10c000d" android:duration="600" android:valueFrom="{4:1065353216}" android:valueTo="{4:1056964608}" android:valueType="0" android:propertyName="strokeAlpha" />
+	<objectAnimator android:interpolator="res/interpolator/error_to_trustedstate_animation_interpolator_3.xml" android:duration="383" android:valueFrom="{4:1056966286}" android:valueTo="{4:0}" android:valueType="0" android:propertyName="trimPathStart" />
+	<objectAnimator android:interpolator="res/interpolator/error_to_trustedstate_animation_interpolator_1.xml" android:duration="383" android:valueFrom="{4:1069547520}" android:valueTo="{4:0}" android:valueType="0" android:propertyName="trimPathEnd" />
+</set>

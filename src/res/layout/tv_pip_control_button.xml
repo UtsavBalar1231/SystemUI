@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+	<ImageView android:id="false" android:focusable="true" android:layout_width="34dp" android:layout_height="34dp" android:src="res/drawable/tv_pip_button_focused.xml" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:importantForAccessibility="1" />
+	<ImageView android:id="false" android:padding="5dp" android:layout_width="34dp" android:layout_height="34dp" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:importantForAccessibility="2" />
+	<TextView android:textSize="12sp" android:textColor="eeeeee" android:gravity="0x11" android:id="false" android:layout_width="100dp" android:layout_height="-2" android:layout_marginTop="3dp" android:text="Full screen" android:layout_below="false" android:layout_centerHorizontal="true" android:alpha="{4:0}" android:importantForAccessibility="2" android:fontFamily="sans-serif" />
+</merge>

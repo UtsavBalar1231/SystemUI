@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="true">
+	<item android:duration="15" android:drawable="res/drawable-xxhdpi-v4/dash00.png" />
+	<item android:duration="15" android:drawable="res/drawable-xxhdpi-v4/dash01.png" />
+	<item android:duration="15" android:drawable="res/drawable-xxhdpi-v4/dash02.png" />
+	<item android:duration="15" android:drawable="res/drawable-xxhdpi-v4/dash03.png" />
+	<item android:duration="15" android:drawable="res/drawable-xxhdpi-v4/dash04.png" />
+	<item android:duration="15" android:drawable="res/drawable-xxhdpi-v4/dash05.png" />
+	<item android:duration="15" android:drawable="res/drawable-xxhdpi-v4/dash06.png" />
+	<item android:duration="15" android:drawable="res/drawable-xxhdpi-v4/dash07.png" />
+	<item android:duration="15" android:drawable="res/drawable-xxhdpi-v4/dash08.png" />
+	<item android:duration="15" android:drawable="res/drawable-xxhdpi-v4/dash09.png" />
+	<item android:duration="15" android:drawable="res/drawable-xxhdpi-v4/dash10.png" />
+	<item android:duration="15" android:drawable="res/drawable-xxhdpi-v4/dash11.png" />
+	<item android:duration="15" android:drawable="res/drawable-xxhdpi-v4/dash12.png" />
+	<item android:duration="15" android:drawable="res/drawable-xxhdpi-v4/dash13.png" />
+	<item android:duration="15" android:drawable="res/drawable-xxhdpi-v4/dash14.png" />
+	<item android:duration="15" android:drawable="res/drawable-xxhdpi-v4/dash15.png" />
+	<item android:duration="15" android:drawable="res/drawable-xxhdpi-v4/dash16.png" />
+	<item android:duration="15" android:drawable="res/drawable-xxhdpi-v4/dash17.png" />
+	<item android:duration="15" android:drawable="res/drawable-xxhdpi-v4/dash18.png" />
+	<item android:duration="15" android:drawable="res/drawable-xxhdpi-v4/dash19.png" />
+	<item android:duration="15" android:drawable="res/drawable-xxhdpi-v4/dash20.png" />
+	<item android:duration="15" android:drawable="res/drawable-xxhdpi-v4/dash21.png" />
+	<item android:duration="15" android:drawable="res/drawable-xxhdpi-v4/dash22.png" />
+	<item android:duration="15" android:drawable="res/drawable-xxhdpi-v4/dash23.png" />
+	<item android:duration="15" android:drawable="res/drawable-xxhdpi-v4/dash24.png" />
+	<item android:duration="15" android:drawable="res/drawable-xxhdpi-v4/dash25.png" />
+	<item android:duration="15" android:drawable="res/drawable-xxhdpi-v4/dash26.png" />
+	<item android:duration="15" android:drawable="res/drawable-xxhdpi-v4/dash27.png" />
+	<item android:duration="15" android:drawable="res/drawable-xxhdpi-v4/dash28.png" />
+	<item android:duration="15" android:drawable="res/drawable-xxhdpi-v4/dash29.png" />
+	<item android:duration="15" android:drawable="res/drawable-xxhdpi-v4/dash30.png" />
+	<item android:duration="15" android:drawable="res/drawable-xxhdpi-v4/dash31.png" />
+	<item android:duration="15" android:drawable="res/drawable-xxhdpi-v4/dash32.png" />
+	<item android:duration="15" android:drawable="res/drawable-xxhdpi-v4/dash33.png" />
+	<item android:duration="15" android:drawable="res/drawable-xxhdpi-v4/dash34.png" />
+	<item android:duration="15" android:drawable="res/drawable-xxhdpi-v4/dash35.png" />
+</animation-list>

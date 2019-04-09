@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:state_checked="true">
+		<layer-list>
+			<item android:gravity="0x17" android:start="4dp" android:end="4dp">
+				<shape android:tint="res/color/op_switch_track_material.xml" android:shape="0">
+					<corners android:radius="7dp" />
+					<solid android:color="resourceId:0x106000d" />
+					<stroke android:width="2dp" android:color="res/color/switch_white_disabled_checked_material.xml" />
+					<size android:height="14dp" />
+				</shape>
+			</item>
+		</layer-list>
+	</item>
+	<item android:state_checked="false">
+		<layer-list>
+			<item android:gravity="0x17" android:start="4dp" android:end="4dp">
+				<shape android:tint="res/color/op_switch_track_material.xml" android:shape="0">
+					<corners android:radius="7dp" />
+					<solid android:color="resourceId:0x106000d" />
+					<stroke android:width="2dp" android:color="res/color/switch_white_disabled_material.xml" />
+					<size android:height="14dp" />
+				</shape>
+			</item>
+		</layer-list>
+	</item>
+</selector>

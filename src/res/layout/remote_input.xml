@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.policy.RemoteInputView xmlns:android="http://schemas.android.com/apk/res/android" android:theme="resourceId:0x7f120440" android:id="false" android:layout_width="-1" android:layout_height="-1">
+	<view android:textAppearance="{2:16842804}" android:textSize="16sp" android:textColor="res/color/remote_input_text.xml" android:textColorHint="99ffffff" android:ellipsize="1" android:gravity="0x800013" android:id="false" android:background="resourceId:0x0" android:paddingTop="2dp" android:paddingBottom="4dp" android:layout_width="0dp" android:layout_height="-1" android:singleLine="true" android:layout_weight="{4:1065353216}" android:inputType="0xc041" android:imeOptions="0x12000004" android:paddingStart="16dp" android:paddingEnd="12dp" class="com.android.systemui.statusbar.policy.RemoteInputView$RemoteEditText" />
+	<FrameLayout android:layout_gravity="0x10" android:layout_width="-2" android:layout_height="-1">
+		<ImageButton android:layout_gravity="0x11" android:id="false" android:background="res/drawable/ripple_drawable.xml" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable/ic_send.xml" android:tint="res/color/remote_input_send.xml" android:contentDescription="resourceId:0x1040292" android:paddingStart="12dp" android:paddingEnd="24dp" android:tintMode="5" />
+		<ProgressBar android:layout_gravity="0x11" android:id="false" android:visibility="1" android:layout_width="24dp" android:layout_height="24dp" android:indeterminate="true" android:layout_marginEnd="6dp" style="{2:16842873}" />
+	</FrameLayout>
+</com.android.systemui.statusbar.policy.RemoteInputView>

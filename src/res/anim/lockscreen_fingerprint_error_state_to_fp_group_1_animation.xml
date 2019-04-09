@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+	<objectAnimator android:interpolator="resourceId:0x10c000f" android:duration="416" android:valueFrom="{4:1138163712}" android:valueTo="{4:1129185280}" android:valueType="0" android:propertyName="rotation" />
+</set>

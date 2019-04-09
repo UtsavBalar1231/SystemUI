@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x10" android:orientation="1" android:paddingTop="{2:16843709}" android:paddingBottom="16dp" android:paddingStart="{2:16843709}" android:paddingEnd="{2:16843710}">
+	<com.android.internal.widget.DialogTitle android:ellipsize="3" android:layout_width="-1" android:layout_height="-2" android:text="Apps running in background" android:singleLine="true" android:textAlignment="5" style="{2:16842816}" />
+	<TextView android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16dp" android:text="Tap for details on battery and data usage" android:textAlignment="5" style="{2:16842818}" />
+</LinearLayout>

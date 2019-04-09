@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.phone.StatusBarWindowView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sysui="http://schemas.android.com/apk/res-auto" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="-1">
+	<com.android.systemui.statusbar.BackDropView android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-1" sysui:ignoreRightInset="true">
+		<ImageView android:id="false" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+		<ImageView android:id="false" android:visibility="1" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+	</com.android.systemui.statusbar.BackDropView>
+	<com.android.systemui.statusbar.ScrimView android:id="false" android:layout_width="-1" android:layout_height="-1" android:importantForAccessibility="2" sysui:ignoreRightInset="true" sysui:scrimColor="resourceId:0x106000c" />
+	<com.android.systemui.statusbar.AlphaOptimizedView android:id="false" android:background="res/drawable/heads_up_scrim.xml" android:layout_width="-1" android:layout_height="250dp" android:importantForAccessibility="2" sysui:ignoreRightInset="true" />
+	<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="-2" />
+	<include layout="res/layout/brightness_mirror.xml" />
+	<ViewStub android:id="false" android:layout="res/layout/car_fullscreen_user_switcher.xml" android:layout_width="-1" android:layout_height="-1" />
+	<include android:visibility="1" android:layout_width="-1" android:layout_height="-1" layout="res/layout/status_bar_expanded.xml" />
+	<com.android.systemui.statusbar.ScrimView android:id="false" android:layout_width="-1" android:layout_height="-1" android:importantForAccessibility="2" sysui:ignoreRightInset="true" />
+	<LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+		<include android:layout_width="-1" android:layout_height="-1" layout="res/layout/opfacelock_light_view.xml" />
+		<include android:layout_width="-1" android:layout_height="-1" layout="res/layout/keyguard_prevent_mode.xml" />
+	</LinearLayout>
+</com.android.systemui.statusbar.phone.StatusBarWindowView>

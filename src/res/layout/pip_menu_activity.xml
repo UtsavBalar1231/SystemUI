@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-1" android:layout_height="-1">
+	<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="-1" android:forceHasOverlappingRendering="false">
+		<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="-1">
+			<ImageView android:layout_gravity="0x11" android:id="false" android:background="{2:16843868}" android:padding="10dp" android:layout_width="60dp" android:layout_height="60dp" android:src="res/drawable/pip_expand.xml" android:contentDescription="Expand" />
+		</FrameLayout>
+		<FrameLayout android:layout_gravity="0x50" android:id="false" android:visibility="1" android:layout_width="-1" android:layout_height="48dp">
+			<LinearLayout android:layout_gravity="0x1" android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-1" android:divider="resourceId:0x106000d" android:showDividers="0x2" />
+		</FrameLayout>
+	</FrameLayout>
+	<ImageView android:layout_gravity="0x800035" android:id="false" android:background="{2:16843868}" android:padding="12dp" android:layout_width="48dp" android:layout_height="48dp" android:src="res/drawable/ic_close_white.xml" android:contentDescription="Close" />
+</FrameLayout>

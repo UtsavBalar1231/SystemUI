@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" android:drawable="res/drawable/ic_hotspot_transient.xml">
+	<target android:name="circle_3" android:animation="res/anim/ic_hotspot_transient_circle_3_animation.xml" />
+	<target android:name="circle_2" android:animation="res/anim/ic_hotspot_transient_circle_2_animation.xml" />
+	<target android:name="circle_1" android:animation="res/anim/ic_hotspot_transient_circle_1_animation.xml" />
+</animated-vector>

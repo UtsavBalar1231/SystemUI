@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.keyguard.AlphaOptimizedLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x800005" android:layout_gravity="0x800005" android:orientation="1" android:id="false" android:paddingTop="4dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="resourceId:0x105014b" />

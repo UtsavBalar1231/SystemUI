@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.qs.QSContainerImpl xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:background="{2:16843828}" android:clipChildren="false" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-2">
+	<View android:id="false" android:background="res/drawable/qs_background_primary.xml" android:layout_width="-1" android:layout_height="-1" android:elevation="4dp" />
+	<com.android.systemui.qs.QSPanel android:id="false" android:background="0000" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="45dp" android:layout_marginBottom="5dp" android:elevation="4dp" />
+	<include layout="res/layout/quick_status_bar_expanded_header.xml" />
+	<include android:id="false" layout="res/layout/qs_btaudio_selector.xml" />
+	<include android:id="false" layout="res/layout/qs_detail.xml" />
+	<include android:id="false" android:visibility="2" layout="res/layout/qs_customize_panel.xml" />
+</com.android.systemui.qs.QSContainerImpl>

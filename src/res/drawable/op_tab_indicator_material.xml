@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" android:paddingMode="0">
+	<item>
+		<ripple android:color="res/color/op_tab_highlight_material.xml">
+			<item android:id="resourceId:0x102002e">
+				<color android:color="resourceId:0x106000b" />
+			</item>
+		</ripple>
+	</item>
+	<item android:gravity="0x50">
+		<shape android:tint="{2:2130968972}" android:shape="0">
+			<size android:height="2dp" />
+			<solid android:color="res/color/op_tab_indicator_material.xml" />
+		</shape>
+	</item>
+	<item android:drawable="resourceId:0x106000d" android:bottom="2dp" />
+</layer-list>

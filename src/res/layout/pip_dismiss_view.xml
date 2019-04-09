@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="176dp" android:alpha="{4:0}">
+	<TextView android:textSize="14sp" android:textColor="ffffffff" android:layout_gravity="0x51" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Drag down to dismiss" android:shadowColor="resourceId:0x106000c" android:shadowDx="{4:3221225472}" android:shadowDy="{4:1073741824}" android:shadowRadius="{4:1008981770}" />
+</FrameLayout>

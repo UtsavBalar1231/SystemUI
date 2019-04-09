@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:gravity="0x17" android:start="4dp" android:end="4dp">
+		<shape android:tint="res/color/switch_track_material.xml" android:shape="0">
+			<corners android:radius="7dp" />
+			<solid android:color="res/color/white_disabled_material.xml" />
+			<size android:height="14dp" />
+		</shape>
+	</item>
+</layer-list>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:state_enabled="false">
+		<shape android:tint="42000" android:shape="3" android:useLevel="false" android:innerRadius="2dp" android:thickness="2dp">
+			<solid android:color="ff000" />
+			<size android:height="18dp" android:width="18dp" />
+		</shape>
+	</item>
+	<item android:state_pressed="true" android:id="false" android:drawable="res/drawable/op_seekbar_thumb_pressed_to_unpressed_light.xml" />
+	<item android:id="false" android:drawable="res/drawable/op_seekbar_thumb_unpressed_to_pressed_light.xml" />
+	<transition android:drawable="res/drawable/op_seekbar_thumb_unpressed_to_pressed_animation_light.xml" android:toId="false" android:fromId="false" />
+	<transition android:drawable="res/drawable/op_seekbar_thumb_pressed_to_unpressed_animation_light.xml" android:toId="false" android:fromId="false" />
+</animated-selector>

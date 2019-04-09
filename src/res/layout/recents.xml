@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<com.android.systemui.recents.views.RecentsView android:id="false" android:layout_width="-1" android:layout_height="-1" />
+	<ImageButton android:layout_gravity="0x51" android:id="false" android:background="res/drawable/recents_dismiss_all_btn.xml" android:visibility="2" android:layout_width="56dp" android:layout_height="56dp" android:layout_marginBottom="18dp" android:src="res/drawable/recents_dismiss_all_icon.xml" android:scaleType="7" android:elevation="30dp" />
+	<ViewStub android:layout_gravity="0x31" android:id="false" android:layout="res/layout/recents_incompatible_app_overlay.xml" android:inflatedId="false" android:layout_width="-1" android:layout_height="128dp" />
+	<ImageView android:layout_gravity="0x51" android:id="false" android:layout_width="-1" android:layout_height="-2" android:src="res/drawable-xxhdpi-v4/recents_lower_gradient.9.png" android:scaleType="1" />
+</FrameLayout>

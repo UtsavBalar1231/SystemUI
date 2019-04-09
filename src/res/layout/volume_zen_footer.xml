@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.volume.ZenFooter xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="false" android:paddingBottom="8dp" android:layout_width="-1" android:layout_height="-2" android:paddingStart="43581unknown unit:0x21" android:paddingEnd="43581unknown unit:0x21">
+	<RelativeLayout android:theme="@android:style/null" android:id="false" android:background="res/drawable/zen_introduction_message_background.xml" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginStart="16dp" android:layout_marginEnd="16dp">
+		<ImageView android:id="false" android:background="res/drawable/btn_borderless_rect.xml" android:clickable="true" android:layout_width="48dp" android:layout_height="48dp" android:src="res/drawable/ic_close.xml" android:scaleType="5" android:tint="resourceId:0x106000b" android:contentDescription="Close" android:layout_marginEnd="8dp" android:layout_alignParentEnd="true" />
+		<TextView android:textAppearance="resourceId:0x7f12031e" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12dp" android:text="You won’t be disturbed by sounds and vibrations, except from alarms. " android:lineSpacingMultiplier="{4:1067033370}" android:textDirection="5" android:layout_marginStart="24dp" android:layout_toStartOf="false" />
+		<View android:layout_width="0dp" android:layout_height="16dp" android:layout_below="false" android:layout_alignParentEnd="true" />
+	</RelativeLayout>
+	<LinearLayout android:gravity="0x10" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+		<ImageView android:id="false" android:layout_width="48dp" android:layout_height="48dp" android:scaleType="5" android:layout_marginEnd="87162unknown unit:0x21" />
+		<LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+			<TextView android:textAppearance="resourceId:0x7f120337" android:id="false" android:layout_width="-1" android:layout_height="-2" android:textDirection="5" />
+		</LinearLayout>
+		<ImageView android:id="false" android:layout_width="48dp" android:layout_height="48dp" android:src="res/drawable-xxhdpi-v4/ic_volume_footer_settings.png" android:scaleType="5" android:tint="ff527fbe" android:layout_marginStart="87162unknown unit:0x21" />
+	</LinearLayout>
+</com.android.systemui.volume.ZenFooter>

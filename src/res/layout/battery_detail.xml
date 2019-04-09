@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:systemui="http://schemas.android.com/apk/res-auto" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+	<TextView android:textAppearance="{2:16842818}" android:textColor="{2:16843829}" android:id="false" android:layout_width="-1" android:layout_height="-2" android:paddingStart="16dp" />
+	<com.android.systemui.ResizingSpace android:layout_width="-1" android:layout_height="27dp" />
+	<com.android.settingslib.graph.UsageView android:id="false" android:layout_width="-1" android:layout_height="141dp" android:layout_marginStart="16dp" android:layout_marginEnd="24dp" android:colorAccent="{2:16843829}" systemui:sideLabels="resourceId:0x7f030004" systemui:textColor="{2:16842808}" />
+	<com.android.systemui.ResizingSpace android:layout_width="-1" android:layout_height="27dp" />
+	<View android:background="{2:16843284}" android:layout_width="-1" android:layout_height="1dp" android:layout_marginBottom="8dp" />
+	<RelativeLayout android:id="false" android:background="{2:16843534}" android:paddingTop="16dp" android:paddingBottom="16dp" android:clickable="true" android:layout_width="-1" android:layout_height="-2">
+		<ImageView android:id="resourceId:0x1020006" android:layout_width="24dp" android:layout_height="24dp" android:scaleType="3" android:adjustViewBounds="true" android:layout_alignParentTop="true" android:layout_marginStart="16dp" android:layout_marginEnd="32dp" android:layout_alignParentStart="true" />
+		<TextView android:textAppearance="resourceId:0x7f12031c" android:id="resourceId:0x1020016" android:layout_width="-2" android:layout_height="-2" android:text="Battery Saver" android:layout_toStartOf="resourceId:0x1020017" android:layout_toEndOf="resourceId:0x1020006" />
+		<TextView android:textAppearance="resourceId:0x7f12031d" android:id="resourceId:0x1020010" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="Reduces performance and background data" android:layout_below="resourceId:0x1020016" android:layout_toStartOf="resourceId:0x1020017" android:layout_toEndOf="resourceId:0x1020006" />
+		<Switch android:textAppearance="resourceId:0x7f12031b" android:id="resourceId:0x1020017" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentTop="true" android:layout_marginEnd="16dp" android:layout_alignParentEnd="true" />
+	</RelativeLayout>
+</LinearLayout>

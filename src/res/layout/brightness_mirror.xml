@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="0x31" android:id="false" android:visibility="1" android:layout_width="-1px" android:layout_height="-2">
+	<FrameLayout android:id="false" android:background="res/drawable/brightness_mirror_background.xml" android:layout_width="-1" android:layout_height="-1" android:elevation="2dp">
+		<include android:layout_width="-1" android:layout_height="-2" layout="res/layout/quick_settings_brightness_dialog.xml" />
+	</FrameLayout>
+</FrameLayout>

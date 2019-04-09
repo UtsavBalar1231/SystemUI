@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:systemui="http://schemas.android.com/apk/res-auto" android:gravity="0x10" android:orientation="0" android:id="false" android:background="{2:16843534}" android:layout_width="-2" android:layout_height="-2">
+	<com.android.systemui.statusbar.policy.DateView android:textAppearance="resourceId:0x7f12032d" android:textSize="36px" android:gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" systemui:datePattern="EEEMMMd" />
+	<com.android.systemui.statusbar.AlphaOptimizedImageView android:gravity="0x11" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable/ic_access_alarms_small.xml" android:tint="{2:16842806}" android:paddingStart="6dp" android:paddingEnd="6dp" />
+	<com.android.systemui.statusbar.AlphaOptimizedButton android:textAppearance="resourceId:0x7f12032c" android:gravity="0x10" android:id="false" android:background="resourceId:0x0" android:visibility="2" android:clickable="false" android:layout_width="-2" android:layout_height="-2" />
+</LinearLayout>

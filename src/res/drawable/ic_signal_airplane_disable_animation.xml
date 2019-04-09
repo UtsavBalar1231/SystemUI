@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" android:drawable="res/drawable/ic_signal_airplane_disable.xml">
+	<target android:name="mask" android:animation="res/anim/ic_signal_airplane_disable_animation_mask.xml" />
+	<target android:name="cross_1" android:animation="res/anim/ic_signal_airplane_disable_animation_cross_1.xml" />
+</animated-vector>

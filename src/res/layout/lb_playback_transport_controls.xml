@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+	<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="-2">
+		<android.support.v17.leanback.widget.ControlBar android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layoutDirection="0" />
+	</FrameLayout>
+</LinearLayout>

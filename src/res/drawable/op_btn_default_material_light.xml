@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="res/color/op_btn_ripple_material_light.xml">
+	<item android:drawable="res/drawable/op_btn_default_mtrl_shape.xml" />
+</ripple>

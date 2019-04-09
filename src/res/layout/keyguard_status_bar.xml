@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.phone.KeyguardStatusBarView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" android:id="false" android:layout_width="-1" android:layout_height="resourceId:0x105014b" android:baselineAligned="false">
+	<com.android.systemui.statusbar.phone.MultiUserSwitch android:id="false" android:background="res/drawable/ripple_drawable.xml" android:visibility="2" android:layout_width="34dp" android:layout_height="-1" android:layout_marginEnd="3dp" android:layout_alignParentEnd="true">
+		<ImageView android:layout_gravity="0x11" android:id="false" android:layout_width="22dp" android:layout_height="22dp" android:scaleType="7" />
+	</com.android.systemui.statusbar.phone.MultiUserSwitch>
+	<LinearLayout android:id="false" android:layout_width="-2" android:layout_height="113dp" android:layout_alignWithParentIfMissing="true" android:paddingEnd="4dp" android:layout_marginStart="16dp" android:layout_toStartOf="false">
+		<FrameLayout android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="resourceId:0x105014b">
+			<include layout="res/layout/system_icons.xml" />
+		</FrameLayout>
+	</LinearLayout>
+	<com.android.keyguard.CarrierText android:textAppearance="{2:16842818}" android:textColor="ffffff" android:ellipsize="4" android:gravity="0x10" android:id="false" android:layout_width="-1" android:layout_height="-1" android:singleLine="true" android:fontFamily="sans-serif-regular" android:layout_marginStart="16dp" android:layout_toStartOf="false" />
+	<include android:layout_width="-1" android:layout_height="-1" android:layout_toStartOf="false" layout="res/layout/highlight_hint_notification_view.xml" />
+</com.android.systemui.statusbar.phone.KeyguardStatusBarView>

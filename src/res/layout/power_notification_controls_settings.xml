@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<include layout="res/layout/switch_bar.xml" />
+	<TextView android:padding="16dp" android:layout_width="-1" android:layout_height="-2" android:text="With power notification controls, you can set an importance level from 0 to 5 for an app&apos;s notifications. 
+
+Level 5 
+- Show at the top of the notification list 
+- Allow full screen interruption 
+- Always peek 
+
+Level 4 
+- Prevent full screen interruption 
+- Always peek 
+
+Level 3 
+- Prevent full screen interruption 
+- Never peek 
+
+Level 2 
+- Prevent full screen interruption 
+- Never peek 
+- Never make sound and vibration 
+
+Level 1 
+- Prevent full screen interruption 
+- Never peek 
+- Never make sound or vibrate 
+- Hide from lock screen and status bar 
+- Show at the bottom of the notification list 
+
+Level 0 
+- Block all notifications from the app" />
+</LinearLayout>

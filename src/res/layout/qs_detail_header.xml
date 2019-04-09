@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.keyguard.AlphaOptimizedLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x11" android:orientation="1" android:background="res/drawable/btn_borderless_rect.xml" android:layout_width="-1" android:layout_height="-2" android:paddingEnd="16dp">
+	<LinearLayout android:gravity="0x11" android:orientation="0" android:layout_width="-1" android:layout_height="48dp" android:layout_marginTop="8dp" android:layout_marginBottom="4dp">
+		<ImageView android:id="resourceId:0x1020477" android:background="res/drawable/ripple_drawable_dark.xml" android:clickable="true" android:layout_width="56dp" android:layout_height="-1" android:src="res/drawable/ic_qs_edit_back.xml" android:scaleType="7" android:contentDescription="resourceId:0x104004d" android:layout_marginEnd="16dp" />
+		<TextView android:textAppearance="resourceId:0x7f12031b" android:id="resourceId:0x1020016" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}" android:textDirection="5" />
+		<ImageView android:id="false" android:background="{2:16843534}" android:padding="16dp" android:visibility="2" android:layout_width="56dp" android:layout_height="56dp" android:src="res/drawable/ic_settings.xml" />
+		<Switch android:textAppearance="resourceId:0x7f12031b" android:id="resourceId:0x1020017" android:clickable="false" android:layout_width="-2" android:layout_height="-2" />
+	</LinearLayout>
+</com.android.keyguard.AlphaOptimizedLinearLayout>

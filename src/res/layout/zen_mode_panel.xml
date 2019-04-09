@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.volume.ZenModePanel xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:clipChildren="false" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:id="false" android:background="{2:16843827}" android:clipChildren="false" android:layout_width="-1" android:layout_height="-1">
+		<com.android.systemui.volume.SegmentedButtons android:id="false" android:background="res/drawable/segmented_buttons_background.xml" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="8dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" />
+		<RelativeLayout android:theme="@android:style/null" android:id="false" android:background="res/drawable/zen_introduction_message_background.xml" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginStart="16dp" android:layout_marginEnd="16dp">
+			<ImageView android:id="false" android:background="res/drawable/btn_borderless_rect.xml" android:clickable="true" android:layout_width="48dp" android:layout_height="48dp" android:src="res/drawable/ic_close.xml" android:scaleType="5" android:tint="resourceId:0x106000b" android:contentDescription="Close" android:layout_marginEnd="8dp" android:layout_alignParentEnd="true" />
+			<TextView android:textAppearance="resourceId:0x7f12031e" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12dp" android:lineSpacingMultiplier="{4:1067033370}" android:textDirection="5" android:layout_marginStart="24dp" android:layout_toStartOf="false" />
+			<TextView android:textAppearance="resourceId:0x7f120319" android:id="false" android:focusable="true" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:text="Customize" android:layout_below="false" android:layout_marginEnd="12dp" android:layout_alignParentEnd="true" style="resourceId:0x7f120294" />
+			<View android:layout_width="0dp" android:layout_height="16dp" android:layout_below="false" android:layout_alignParentEnd="true" />
+		</RelativeLayout>
+		<LinearLayout android:orientation="0" android:id="false" android:paddingBottom="4dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8dp" android:layout_marginStart="4dp" android:layout_marginEnd="4dp">
+			<RadioGroup android:id="false" android:layout_width="-2" android:layout_height="-2" />
+			<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-1" />
+		</LinearLayout>
+		<TextView android:textAppearance="resourceId:0x7f120322" android:id="false" android:layout_width="-1" android:layout_height="-2" android:lineSpacingMultiplier="{4:1067033370}" android:textDirection="5" android:layout_marginStart="18dp" android:layout_marginEnd="16dp" />
+	</LinearLayout>
+	<LinearLayout android:gravity="0x11" android:layout_gravity="0x11" android:orientation="1" android:id="resourceId:0x1020004" android:background="{2:16843827}" android:layout_width="-1" android:layout_height="-1">
+		<ImageView android:id="resourceId:0x1020006" android:layout_width="56dp" android:layout_height="56dp" android:tint="{2:16842800}" android:alpha="{2:16842803}" />
+		<TextView android:textAppearance="resourceId:0x7f12031a" android:id="resourceId:0x1020016" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20dp" />
+	</LinearLayout>
+	<LinearLayout android:orientation="1" android:id="false" android:background="{2:16843827}" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="16dp" android:layout_marginBottom="8dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp">
+		<TextView android:textAppearance="resourceId:0x7f12031c" android:id="resourceId:0x1020016" android:layout_width="-1" android:layout_height="-2" />
+	</LinearLayout>
+</com.android.systemui.volume.ZenModePanel>

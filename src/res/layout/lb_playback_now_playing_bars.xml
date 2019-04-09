@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="3dp" android:layout_marginRight="1dp" android:src="res/drawable/lb_playback_now_playing_bar.xml" />
+	<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="3dp" android:layout_marginRight="1dp" android:src="res/drawable/lb_playback_now_playing_bar.xml" />
+	<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="3dp" android:src="res/drawable/lb_playback_now_playing_bar.xml" />
+</merge>

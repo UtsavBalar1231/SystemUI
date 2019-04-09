@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<TextView android:textSize="20dp" android:textColor="resourceId:0x1060012" android:gravity="0x1" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:text="Your recent screens appear here" />
+</FrameLayout>

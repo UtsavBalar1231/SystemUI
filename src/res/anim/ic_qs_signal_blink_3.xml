@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android" android:interpolator="resourceId:0x10a000b" android:duration="3000" android:repeatCount="-1">
+	<propertyValuesHolder android:valueType="3" android:propertyName="fillColor">
+		<keyframe android:value="4dffffff" android:fraction="{4:0}" />
+		<keyframe android:value="4dffffff" android:fraction="{4:1059648963}" />
+		<keyframe android:value="ffffffff" android:fraction="{4:1059816735}" />
+		<keyframe android:value="ffffffff" android:fraction="{4:1065353216}" />
+	</propertyValuesHolder>
+</objectAnimator>

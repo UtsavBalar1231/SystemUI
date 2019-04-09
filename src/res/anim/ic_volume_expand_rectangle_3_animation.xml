@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+	<objectAnimator android:interpolator="res/interpolator/ic_volume_expand_animation_interpolator_0.xml" android:duration="200" android:valueFrom="{4:1110704128}" android:valueTo="{4:3258187776}" android:valueType="0" android:propertyName="rotation" />
+</set>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:theme="@android:style/Theme.DeviceDefault.Light" android:gravity="0x51" android:orientation="1" android:layout_width="-1px" android:layout_height="-2" android:layoutDirection="0">
+	<include android:layout_width="-1px" android:layout_height="-2" layout="res/layout/screen_pinning_request_text_area.xml" />
+	<View android:id="false" android:background="{2:16843829}" android:layout_width="-1px" android:layout_height="18dp" />
+	<include android:layout_width="-1px" android:layout_height="-2" layout="res/layout/screen_pinning_request_buttons.xml" />
+</LinearLayout>

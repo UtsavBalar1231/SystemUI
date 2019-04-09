@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:androidprv="http://schemas.android.com/apk/res-auto" android:id="false" android:layout_width="-1" android:layout_height="-1">
+	<com.android.keyguard.KeyguardStatusView android:orientation="1" android:id="false" android:layout_width="-2" android:layout_height="-2">
+		<LinearLayout android:layout_gravity="0x31" android:orientation="1" android:focusable="true" android:layout_width="-1" android:layout_height="-2">
+			<com.android.keyguard.clock.OPTextClock android:textColor="fffafafa" android:layout_gravity="0x31" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="-1dp" android:baselineAligned="true" android:singleLine="true" android:format12Hour="hmm" android:format24Hour="kkmm" style="resourceId:0x7f120441" />
+			<include layout="res/layout/keyguard_status_area.xml" />
+			<ImageView android:layout_gravity="0x1" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:src="res/drawable-xhdpi-v4/kg_security_lock_normal.png" />
+		</LinearLayout>
+	</com.android.keyguard.KeyguardStatusView>
+</FrameLayout>

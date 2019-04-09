@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.DismissView xmlns:android="http://schemas.android.com/apk/res/android" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:paddingEnd="8dp">
+	<com.android.systemui.statusbar.DismissViewButton android:layout_gravity="0x800005" android:id="false" android:focusable="true" android:layout_width="-2" android:layout_height="-2" android:text="Clear all" android:contentDescription="Clear all notifications." android:textAllCaps="true" style="@android:style/Widget.Material.Button.Borderless" />
+</com.android.systemui.statusbar.DismissView>

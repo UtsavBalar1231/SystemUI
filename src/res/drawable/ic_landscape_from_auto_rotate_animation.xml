@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" android:drawable="res/drawable/ic_landscape_from_auto_rotate.xml">
+	<target android:name="arrows" android:animation="res/anim/ic_landscape_from_auto_rotate_animation_arrows.xml" />
+	<target android:name="arrow_top" android:animation="res/anim/ic_landscape_from_auto_rotate_animation_arrow_top.xml" />
+	<target android:name="arrow_bottom" android:animation="res/anim/ic_landscape_from_auto_rotate_animation_arrow_bottom.xml" />
+	<target android:name="device" android:animation="res/anim/ic_landscape_from_auto_rotate_animation_device.xml" />
+	<target android:name="body" android:animation="res/anim/ic_landscape_from_auto_rotate_animation_body.xml" />
+</animated-vector>

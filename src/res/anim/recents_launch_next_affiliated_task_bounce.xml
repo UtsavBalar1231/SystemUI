@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:background="ff000" android:shareInterpolator="false" android:zAdjustment="0">
+	<translate android:interpolator="resourceId:0x10c000d" android:duration="133" android:fillBefore="true" android:fillAfter="true" android:fromYDelta="{4:0}" android:toYDelta="3.761583E-39%" android:fillEnabled="true" />
+	<scale android:interpolator="resourceId:0x10c000d" android:duration="133" android:pivotX="1.5046333E-36%p" android:pivotY="1.5046333E-36%p" android:fillBefore="true" android:fillAfter="true" android:fromXScale="{4:1065353216}" android:toXScale="{4:1065017672}" android:fromYScale="{4:1065353216}" android:toYScale="{4:1065017672}" android:fillEnabled="true" />
+	<translate android:interpolator="res/interpolator/recents_launch_prev_affiliated_task_bounce_ydelta.xml" android:duration="217" android:fillBefore="true" android:fillAfter="true" android:startOffset="133" android:fromYDelta="{4:0}" android:toYDelta="NaN%" android:fillEnabled="true" />
+	<scale android:interpolator="res/interpolator/recents_launch_next_affiliated_task_bounce_scale.xml" android:duration="217" android:pivotX="1.5046333E-36%p" android:pivotY="1.5046333E-36%p" android:fillBefore="false" android:fillAfter="true" android:startOffset="133" android:fromXScale="{4:1065353216}" android:toXScale="{4:1065524412}" android:fromYScale="{4:1065353216}" android:toYScale="{4:1065524412}" android:fillEnabled="true" />
+</set>

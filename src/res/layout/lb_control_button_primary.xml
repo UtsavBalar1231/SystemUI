@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-2" android:layout_height="-2">
+	<ImageView android:id="false" android:layout_width="90dp" android:layout_height="64dp" android:src="res/drawable-v21/lb_control_button_primary.xml" android:scaleType="5" style="{2:2130969081}" />
+	<ImageView android:layout_gravity="0x11" android:id="false" android:layout_width="32dp" android:layout_height="32dp" />
+	<TextView android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" style="{2:2130969079}" />
+</FrameLayout>

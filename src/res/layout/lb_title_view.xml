@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+	<ImageView android:layout_gravity="0x800015" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="60dp" android:src="resourceId:0x0" android:adjustViewBounds="true" android:maxWidth="584dp" style="{2:2130968665}" />
+	<TextView android:layout_gravity="0x800015" android:id="false" android:layout_width="-2" android:layout_height="60dp" style="{2:2130968666}" />
+	<android.support.v17.leanback.widget.SearchOrbView android:layout_gravity="0x800013" android:id="false" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:transitionGroup="true" />
+</merge>

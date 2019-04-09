@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="88000" android:layout_width="-1" android:layout_height="-1" android:alpha="{4:0}" android:forceHasOverlappingRendering="false">
+	<TextView android:textColor="resourceId:0x106000b" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:text="App does not support split-screen." android:drawableTop="res/drawable/recents_info_light.xml" android:drawablePadding="8dp" />
+</FrameLayout>

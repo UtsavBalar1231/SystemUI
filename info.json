@@ -1,0 +1,9 @@
+{
+  "package_label": "com.android.systemui.SystemUIApplication",
+  "package_name": "com.android.systemui",
+  "has_java_sources": true,
+  "has_xml_sources": true,
+  "created_at": "2019-04-08T18:30:26.152+0000",
+  "updated_at": "2019-04-08T18:30:45.191+0000",
+  "source_size": 3501297
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+	<android.support.v17.leanback.widget.NonOverlappingView android:id="false" android:background="res/drawable-xhdpi-v4/lb_card_shadow_normal.9.png" android:layout_width="-1" android:layout_height="-1" />
+	<android.support.v17.leanback.widget.NonOverlappingView android:id="false" android:background="res/drawable-xhdpi-v4/lb_card_shadow_focused.9.png" android:layout_width="-1" android:layout_height="-1" android:alpha="{4:0}" />
+</merge>

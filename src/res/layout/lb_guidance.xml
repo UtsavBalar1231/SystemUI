@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<android.support.v17.leanback.widget.GuidanceStylingRelativeLayout android:id="false" style="{2:2130968802}">
+		<ImageView android:id="false" style="{2:2130968805}" />
+		<TextView android:id="false" style="{2:2130968801}" />
+		<TextView android:id="false" style="{2:2130968806}" />
+		<TextView android:id="false" style="{2:2130968803}" />
+	</android.support.v17.leanback.widget.GuidanceStylingRelativeLayout>
+</FrameLayout>

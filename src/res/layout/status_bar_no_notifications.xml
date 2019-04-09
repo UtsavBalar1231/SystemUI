@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.EmptyShadeView xmlns:android="http://schemas.android.com/apk/res/android" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+	<TextView android:textSize="16sp" android:textColor="e6ffffff" android:gravity="0x31" android:id="false" android:paddingTop="28dp" android:layout_width="-1" android:layout_height="64dp" android:text="No notifications" />
+</com.android.systemui.statusbar.EmptyShadeView>

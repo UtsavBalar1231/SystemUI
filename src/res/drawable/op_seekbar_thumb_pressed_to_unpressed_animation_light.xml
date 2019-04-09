@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" android:drawable="res/drawable/op_seekbar_thumb_pressed_to_unpressed_light.xml">
+	<target android:name="thumb" android:animation="res/anim/seekbar_thumb_pressed_to_unpressed_thumb_animation.xml" />
+</animated-vector>

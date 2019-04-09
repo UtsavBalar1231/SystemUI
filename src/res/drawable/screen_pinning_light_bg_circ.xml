@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="1">
+	<solid android:color="res/color/screen_pinning_nav_icon_highlight_outer.xml" />
+	<size android:height="84dp" android:width="84dp" />
+</shape>

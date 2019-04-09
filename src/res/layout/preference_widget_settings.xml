@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-2" android:layout_height="-2">
+	<RadioButton android:id="false" android:focusable="false" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginEnd="4dp" />
+	<View android:background="{2:16843284}" android:layout_width="1dp" android:layout_height="-1" />
+	<ImageView android:layout_gravity="0x10" android:id="false" android:layout_width="50dp" android:layout_height="24dp" android:src="res/drawable/ic_settings.xml" android:tint="resourceId:0x106000c" />
+</LinearLayout>

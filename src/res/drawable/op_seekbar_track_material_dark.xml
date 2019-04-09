@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:gravity="0x17" android:id="resourceId:0x1020000">
+		<shape android:tint="4cffffff" android:shape="0">
+			<size android:height="2dp" />
+			<solid android:color="res/color/white_disabled_material.xml" />
+		</shape>
+	</item>
+	<item android:gravity="0x17" android:id="resourceId:0x102000f">
+		<scale android:scaleWidth="100%">
+			<selector>
+				<item android:state_enabled="false" android:drawable="resourceId:0x106000d" />
+				<item>
+					<shape android:tint="{2:2130968970}" android:shape="0">
+						<size android:height="2dp" />
+						<solid android:color="res/color/white_disabled_material.xml" />
+					</shape>
+				</item>
+			</selector>
+		</scale>
+	</item>
+	<item android:gravity="0x17" android:id="resourceId:0x102000d">
+		<scale android:scaleWidth="100%">
+			<selector>
+				<item android:state_enabled="false" android:drawable="resourceId:0x106000d" />
+				<item>
+					<shape android:tint="{2:2130968970}" android:shape="0">
+						<size android:height="2dp" />
+						<solid android:color="resourceId:0x106000b" />
+					</shape>
+				</item>
+			</selector>
+		</scale>
+	</item>
+</layer-list>

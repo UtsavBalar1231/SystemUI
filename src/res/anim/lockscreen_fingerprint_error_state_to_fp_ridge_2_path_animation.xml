@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+	<set android:ordering="1">
+		<objectAnimator android:interpolator="resourceId:0x10c000b" android:duration="333" android:valueFrom="{4:1065353216}" android:valueTo="{4:1065353216}" android:valueType="0" android:propertyName="trimPathStart" />
+		<objectAnimator android:interpolator="res/interpolator/lockscreen_fingerprint_error_state_to_fp_animation_interpolator_3.xml" android:duration="200" android:valueFrom="{4:1065353216}" android:valueTo="{4:0}" android:valueType="0" android:propertyName="trimPathStart" />
+	</set>
+</set>

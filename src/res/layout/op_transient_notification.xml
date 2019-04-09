@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="res/drawable-xxhdpi-v4/toast_frame_dark.9.png" android:layout_width="-1" android:layout_height="-1">
+	<TextView android:textAppearance="resourceId:0x7f120120" android:textColor="ffffffff" android:layout_gravity="0x1" android:id="resourceId:0x102000b" android:layout_width="-2" android:layout_height="-2" android:shadowColor="bb000" android:shadowRadius="{4:1076887552}" android:layout_weight="{4:1065353216}" />
+</LinearLayout>

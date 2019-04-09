@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:name="ic_bluetooth_transient" android:height="48dp" android:width="48dp" android:viewportWidth="{4:1111490560}" android:viewportHeight="{4:1111490560}">
+	<group android:name="ic_signal_wifi_4_bar_48px_outlines_" android:translateX="{4:1102839546}" android:translateY="{4:1103224641}">
+		<group android:name="ic_signal_wifi_4_bar_48px_outlines__pivot" android:translateX="{4:3250174270}" android:translateY="{4:3247894162}">
+			<group android:name="bluetooth" android:translateX="{4:1102099456}" android:translateY="{4:1100333874}">
+				<group android:name="bluetooth_pivot" android:translateX="{4:3249583104}" android:translateY="{4:3247817522}">
+					<group android:name="cross" android:rotation="{4:3220256839}">
+						<path android:name="extented_cross" android:pathData="M 10.6188659668,6.56344604492 c 0.0,0.0 21.7386016846,23.1297454834 21.7386016846,23.1297454834" android:strokeColor="ffffffff" android:strokeWidth="{4:1082130432}" />
+					</group>
+					<group android:name="bluetooth_0" android:translateX="{4:1102781030}" android:translateY="{4:1100333874}">
+						<path android:name="b_shape_merged" android:fillColor="ffffffff" android:pathData="M 11.3999938965,-8.60000610352 c 0.0,0.0 -11.3999938965,-11.3999938965 -11.3999938965,-11.3999938965 c 0.0,0.0 -2.0,0.0 -2.0,0.0 c 0.0,0.0 0.0,15.1999969482 0.0,15.1999969482 c 0.0,0.0 -9.19999694824,-9.19999694824 -9.19999694824,-9.19999694824 c 0.0,0.0 -2.80000305176,2.80000305176 -2.80000305176,2.80000305176 c 0.0,0.0 11.1999969482,11.1999969482 11.1999969482,11.1999969482 c 0.0,0.0 -11.1999969482,11.1999969482 -11.1999969482,11.1999969482 c 0.0,0.0 2.80000305176,2.80000305176 2.80000305176,2.80000305176 c 0.0,0.0 9.19999694824,-9.19999694824 9.19999694824,-9.19999694824 c 0.0,0.0 0.0,15.1999969482 0.0,15.1999969482 c 0.0,0.0 2.0,0.0 2.0,0.0 c 0.0,0.0 11.3999938965,-11.3999938965 11.3999938965,-11.3999938965 c 0.0,0.0 -8.59999084473,-8.60000610352 -8.59999084473,-8.60000610352 c 0.0,0.0 8.59999084473,-8.60000610352 8.59999084473,-8.60000610352 Z M 2.0,-12.3000030518 c 0.0,0.0 3.80000305176,3.80000305176 3.80000305176,3.80000305176 c 0.0,0.0 -3.80000305176,3.69999694824 -3.80000305176,3.69999694824 c 0.0,0.0 0.0,-7.5 0.0,-7.5 Z M 5.80000305176,8.60000610352 c 0.0,0.0 -3.80000305176,3.69999694824 -3.80000305176,3.69999694824 c 0.0,0.0 0.0,-7.5 0.0,-7.5 c 0.0,0.0 3.80000305176,3.80000305176 3.80000305176,3.80000305176 Z" />
+					</group>
+				</group>
+			</group>
+			<group android:name="dot_left" android:translateX="{4:1101093887}" android:translateY="{4:1100293121}">
+				<group android:name="dot_left_pivot" android:translateX="{4:3248577535}" android:translateY="{4:3247776769}">
+					<group android:name="group_1" android:translateX="{4:1091974348}" android:translateY="{4:1100333874}">
+						<group android:name="group_1_pivot" android:translateX="{4:3239457996}" android:translateY="{4:3247817522}">
+							<path android:name="dot_left_0" android:fillColor="ffffffff" android:pathData="M 13.3878936768,18.7203063965 c 0.0,0.0 -4.0,-4.0 -4.0,-4.0 c 0.0,0.0 -4.0,4.0 -4.0,4.0 c 0.0,0.0 4.0,4.0 4.0,4.0 c 0.0,0.0 4.0,-4.0 4.0,-4.0 Z" />
+						</group>
+					</group>
+				</group>
+			</group>
+			<group android:name="dot_right" android:translateX="{4:1104234907}" android:translateY="{4:1100275505}">
+				<group android:name="dot_right_pivot" android:translateX="{4:3251718555}" android:translateY="{4:3247759153}">
+					<group android:name="group_2" android:scaleX="{4:0}" android:scaleY="{4:0}" android:translateX="{4:1108708659}" android:translateY="{4:1100333874}">
+						<group android:name="group_1_pivot_0" android:translateX="{4:3256192307}" android:translateY="{4:3247817522}">
+							<path android:name="dot_right_0" android:fillColor="ffffffff" android:pathData="M 37.3878936768,14.7203063965 c 0.0,0.0 -4.0,4.0 -4.0,4.0 c 0.0,0.0 4.0,4.0 4.0,4.0 c 0.0,0.0 4.0,-4.0 4.0,-4.0 c 0.0,0.0 -4.0,-4.0 -4.0,-4.0 Z" />
+						</group>
+					</group>
+				</group>
+			</group>
+		</group>
+	</group>
+</vector>

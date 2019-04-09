@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.phone.PhoneStatusBarView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" android:orientation="1" android:id="false" android:background="ff000" android:focusable="false" android:descendantFocusability="1" android:layout_width="-1" android:layout_height="resourceId:0x105014b">
+	<ImageView android:id="false" android:paddingBottom="2dp" android:visibility="2" android:layout_width="resourceId:0x105014c" android:layout_height="-1" android:src="res/drawable-xxhdpi-v4/ic_sysbar_lights_out_dot_small.png" android:scaleType="5" android:paddingStart="6dp" />
+	<LinearLayout android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-1" android:paddingStart="6dp" android:paddingEnd="8dp">
+		<com.android.systemui.statusbar.AlphaOptimizedFrameLayout android:orientation="0" android:id="false" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}" />
+		<include android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}" layout="res/layout/highlight_hint_notification_view.xml" />
+		<com.android.keyguard.AlphaOptimizedLinearLayout android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-1">
+			<include layout="res/layout/system_icons.xml" />
+			<com.android.systemui.statusbar.policy.Clock android:textAppearance="resourceId:0x7f120323" android:gravity="0x800013" android:id="false" android:layout_width="-2" android:layout_height="-1" android:singleLine="true" android:paddingEnd="0dp" />
+		</com.android.keyguard.AlphaOptimizedLinearLayout>
+	</LinearLayout>
+	<ViewStub android:id="false" android:layout="res/layout/emergency_cryptkeeper_text.xml" android:layout_width="-2" android:layout_height="-1" />
+	<View android:id="false" android:layout_width="-2" android:layout_height="-1" />
+</com.android.systemui.statusbar.phone.PhoneStatusBarView>

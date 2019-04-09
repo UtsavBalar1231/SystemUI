@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:background="res/drawable/volume_dialog_background.xml" android:paddingTop="8dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="4dp" android:translationZ="4dp">
+	<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:paddingEnd="48dp" />
+		<include layout="res/layout/volume_zen_footer.xml" />
+		<include layout="res/layout/tuner_zen_mode_panel.xml" />
+	</LinearLayout>
+	<LinearLayout android:orientation="1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentTop="true" android:layout_marginEnd="43581unknown unit:0x21" android:layout_alignParentEnd="true">
+		<com.android.keyguard.AlphaOptimizedImageButton xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:background="res/drawable/ripple_drawable.xml" android:clickable="true" android:layout_width="48dp" android:layout_height="48dp" android:src="res/drawable/ic_volume_collapse_animation.xml" android:soundEffectsEnabled="false" style="resourceId:0x7f120370" />
+	</LinearLayout>
+</RelativeLayout>

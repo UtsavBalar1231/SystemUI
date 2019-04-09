@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="0px" android:layout_weight="{4:1065353216}">
+		<LinearLayout android:orientation="1" android:id="false" android:background="{2:16842836}" android:layout_width="0px" android:layout_height="-1" android:layout_weight="4" android:elevation="4dp" style="{2:2130969028}">
+			<ListView android:listPreferredItemHeight="48dp" android:scrollbarAlwaysDrawVerticalTrack="true" android:id="resourceId:0x102000a" android:clipToPadding="false" android:layout_width="-1" android:layout_height="0px" android:drawSelectorOnTop="false" android:cacheColorHint="resourceId:0x106000d" android:divider="resourceId:0x0" android:layout_weight="{4:1065353216}" style="{2:2130969029}" />
+			<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:0}" />
+		</LinearLayout>
+		<LinearLayout android:orientation="1" android:id="false" android:visibility="2" android:layout_width="0px" android:layout_height="-1" android:layout_weight="6" style="{2:2130969030}">
+			<include layout="res/layout/breadcrumbs_in_fragment_material.xml" />
+			<android.preference.PreferenceFrameLayout android:id="false" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}" />
+		</LinearLayout>
+	</LinearLayout>
+	<RelativeLayout android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:0}">
+		<Button android:id="false" android:layout_width="150dp" android:layout_height="-2" android:layout_margin="5dp" android:text="Back" android:layout_alignParentStart="true" />
+		<LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentEnd="true">
+			<Button android:id="false" android:visibility="2" android:layout_width="150dp" android:layout_height="-2" android:layout_margin="5dp" android:text="Skip" />
+			<Button android:id="false" android:layout_width="150dp" android:layout_height="-2" android:layout_margin="5dp" android:text="Next" />
+		</LinearLayout>
+	</RelativeLayout>
+</LinearLayout>

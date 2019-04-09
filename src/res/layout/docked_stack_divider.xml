@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.stackdivider.DividerView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<View android:id="false" android:background="ff000" style="resourceId:0x7f1200c1" />
+	<com.android.systemui.stackdivider.MinimizedDockShadow android:id="false" android:alpha="{4:0}" style="resourceId:0x7f1200c3" />
+	<com.android.systemui.stackdivider.DividerHandleView android:id="false" android:background="resourceId:0x0" android:contentDescription="Split-screen divider" style="resourceId:0x7f1200c2" />
+</com.android.systemui.stackdivider.DividerView>

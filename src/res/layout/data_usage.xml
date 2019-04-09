@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.qs.tiles.DataUsageDetailView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:paddingTop="16dp" android:layout_width="-1" android:layout_height="-2" android:paddingStart="16dp" android:paddingEnd="16dp">
+	<TextView android:textAppearance="resourceId:0x7f120315" android:id="resourceId:0x1020016" android:layout_width="-2" android:layout_height="-2" />
+	<TextView android:textAppearance="resourceId:0x7f120317" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+	<com.android.systemui.qs.DataUsageGraph android:id="false" android:layout_width="-1" android:layout_height="8dp" android:layout_marginTop="8dp" android:layout_marginBottom="16dp" />
+	<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+		<TextView android:textAppearance="resourceId:0x7f120315" android:id="false" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}" />
+		<TextView android:textAppearance="resourceId:0x7f120315" android:id="false" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}" />
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4dp">
+		<TextView android:textAppearance="resourceId:0x7f120316" android:id="false" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}" />
+		<TextView android:textAppearance="resourceId:0x7f120316" android:id="false" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}" />
+	</LinearLayout>
+	<TextView android:textAppearance="resourceId:0x7f120316" android:id="false" android:paddingTop="16dp" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="Roaming" />
+</com.android.systemui.qs.tiles.DataUsageDetailView>

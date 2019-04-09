@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<TextView android:id="false" style="{2:2130969087}" />
+	<ImageView android:layout_gravity="0x10" android:id="false" android:visibility="2" android:layout_width="14dp" android:layout_height="14dp" android:src="res/drawable-xhdpi-v4/lb_ic_play_fit.png" android:scaleType="2" android:adjustViewBounds="true" />
+	<android.support.v17.leanback.widget.MediaNowPlayingView android:layout_gravity="0x10" android:id="false" android:visibility="2" android:layout_width="28dp" android:layout_height="28dp" />
+</merge>

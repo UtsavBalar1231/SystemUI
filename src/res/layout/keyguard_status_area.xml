@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:androidprv="http://schemas.android.com/apk/res-auto" android:gravity="0x11" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+	<com.android.keyguard.clock.OPTextClock android:textColor="fffafafa" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:shadowColor="1a000" android:shadowDy="{4:1065353216}" android:shadowRadius="{4:1073741824}" android:letterSpacing="{4:1041865114}" style="resourceId:0x7f120442" />
+</LinearLayout>

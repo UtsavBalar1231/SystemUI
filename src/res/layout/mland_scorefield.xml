@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="22sp" android:textStyle="0x1" android:textColor="ffaaaaaa" android:gravity="0x11" android:id="false" android:background="res/drawable/scorecard.xml" android:paddingTop="4dp" android:paddingBottom="4dp" android:layout_width="-2" android:layout_height="-1" android:paddingStart="12dp" android:paddingEnd="12dp" android:elevation="10dp" />

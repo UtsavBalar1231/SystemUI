@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="14sp" android:textColor="ff757575" android:gravity="0x11" android:background="res/drawable/ksh_key_item_background.xml" android:padding="4dp" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" android:textAllCaps="true" android:layout_marginStart="4dp" />

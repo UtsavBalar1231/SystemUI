@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x11" android:background="{2:16843534}" android:clickable="true" android:layout_width="-1" android:layout_height="48dp" android:paddingStart="4dp" android:paddingEnd="4dp">
+	<ImageView android:id="resourceId:0x1020006" android:padding="12dp" android:layout_width="48dp" android:layout_height="48dp" />
+	<TextView android:textAppearance="{2:16843678}" android:textColor="{2:16842806}" android:layout_gravity="0x10" android:id="resourceId:0x1020016" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}" />
+	<com.android.systemui.statusbar.phone.ExpandableIndicator android:id="false" android:padding="12dp" android:visibility="2" android:layout_width="48dp" android:layout_height="48dp" />
+</LinearLayout>

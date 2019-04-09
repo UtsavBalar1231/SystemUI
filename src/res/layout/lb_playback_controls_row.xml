@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v17.leanback.widget.PlaybackControlsRowView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:clipChildren="false" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-2" android:paddingStart="{2:2130969096}" android:paddingEnd="{2:2130969095}">
+	<LinearLayout android:orientation="0" android:id="false" android:clipChildren="false" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="20dp">
+		<ImageView android:id="false" android:layout_width="-2" android:layout_height="176dp" android:scaleType="2" android:adjustViewBounds="true" />
+		<LinearLayout android:layout_gravity="0x50" android:orientation="1" android:id="false" android:clipChildren="false" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-2">
+			<FrameLayout android:gravity="0x30" android:id="false" android:paddingTop="24dp" android:clipChildren="false" android:clipToPadding="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginStart="24dp" android:layout_marginEnd="24dp" />
+			<Space android:id="false" android:layout_width="-1" android:layout_height="24dp" />
+			<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="-2" android:minHeight="64dp" android:layout_marginStart="24dp" android:layout_marginEnd="24dp" />
+		</LinearLayout>
+	</LinearLayout>
+	<FrameLayout android:layout_gravity="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+	<Space android:id="false" android:layout_width="-1" android:layout_height="20dp" />
+</android.support.v17.leanback.widget.PlaybackControlsRowView>

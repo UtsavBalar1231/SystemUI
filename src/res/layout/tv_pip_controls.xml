@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+	<com.android.systemui.pip.tv.PipControlButtonView android:id="false" android:layout_width="100dp" android:layout_height="-2" android:src="res/drawable/ic_fullscreen_white_24dp.xml" android:text="Full screen" />
+	<com.android.systemui.pip.tv.PipControlButtonView android:id="false" android:layout_width="100dp" android:layout_height="-2" android:src="res/drawable/ic_close_white.xml" android:text="Close PIP" android:layout_marginStart="-50dp" />
+	<com.android.systemui.pip.tv.PipControlButtonView android:id="false" android:visibility="2" android:layout_width="100dp" android:layout_height="-2" android:src="res/drawable/ic_pause_white.xml" android:text="Pause" android:layout_marginStart="-50dp" />
+</merge>

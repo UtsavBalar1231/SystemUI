@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+	<TextView android:textAppearance="resourceId:0x7f12030d" android:ellipsize="3" android:id="false" android:paddingLeft="24dp" android:paddingTop="24dp" android:paddingRight="24dp" android:layout_width="-1" android:layout_height="-2" android:text="Cast to" android:singleLine="true" />
+	<ListView android:id="false" android:layout_width="-1" android:layout_height="-2" android:divider="resourceId:0x106000d" android:dividerHeight="0dp" />
+	<LinearLayout android:orientation="1" android:id="resourceId:0x1020004" android:paddingLeft="16dp" android:paddingTop="90dp" android:paddingRight="16dp" android:visibility="2" android:layout_width="-1" android:layout_height="240dp">
+		<TextView android:textAppearance="resourceId:0x7f12030c" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:text="Finding devices" />
+		<ProgressBar android:layout_gravity="0x11" android:layout_width="150dp" android:layout_height="-2" android:indeterminate="true" style="{2:16842872}" />
+	</LinearLayout>
+</LinearLayout>

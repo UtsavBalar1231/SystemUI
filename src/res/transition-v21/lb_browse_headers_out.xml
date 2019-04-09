@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android" android:duration="250">
+	<changeBounds android:interpolator="resourceId:0x10c000f" />
+	<changeTransform android:interpolator="resourceId:0x10c000f">
+		<targets>
+			<target android:targetId="false" />
+		</targets>
+	</changeTransform>
+	<fade android:interpolator="resourceId:0x10c000f" android:startDelay="150" android:transitionVisibilityMode="0x1" />
+	<fade android:interpolator="resourceId:0x10c000f" android:transitionVisibilityMode="0x2" />
+</transitionSet>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.phone.NavigationBarView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:systemui="http://schemas.android.com/apk/res-auto" android:background="ff000" android:layout_width="-1" android:layout_height="-1">
+	<com.android.systemui.statusbar.phone.NavigationBarInflaterView android:id="false" android:layout_width="-1" android:layout_height="-1" />
+</com.android.systemui.statusbar.phone.NavigationBarView>

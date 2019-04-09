@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingTop="16dp" android:layout_width="-1" android:layout_height="-2" android:paddingStart="16dp" android:paddingEnd="16dp">
+	<CheckBox android:id="false" android:focusable="true" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:text="Don&apos;t show again" />
+</FrameLayout>

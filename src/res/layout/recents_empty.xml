@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="16sp" android:textColor="ffffffff" android:gravity="0x11" android:layout_gravity="0x11" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="No recent items" android:drawableTop="res/drawable/recents_empty.xml" android:drawablePadding="25dp" android:fontFamily="sans-serif" />
